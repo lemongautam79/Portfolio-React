@@ -1,41 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import whiteKey from '../images/whiteKey.jpg'
-import { useCreateUsersMutation, useGetAllUsersQuery } from '../api/RTK Query/PortfolioApiSlice'
 
 const ContactUs = () => {
-    // ! GET all users
-    const { data } = useGetAllUsersQuery();
-    // console.log(data)
-
-    // ! Creating users
-    const [users] = useCreateUsersMutation();
-    const [registerUsers, setRegisterUsers] = useState("")
-
-    const onRegisterUsers = (e) => {
-        setRegisterUsers(registerUsers => {
-            return {
-                ...registerUsers,
-                [e.target.name]: e.target.value,
-            }
-        })
-        // console.log(registerUsers)
-    }
-
-    const PortfolioUsers = (e) => {
-        e.preventDefault()
-        users(registerUsers)
-        setRegisterUsers({
-            "name": "",
-            "email": "",
-            "messages": "",
-            "websites":"",
-            "gamedev":"",
-            "seo":"",
-            "ecommerce":""
-            
-        })
-        alert("Info submitted")
-    }
     return (
         <>
             <section class="contact section-padding" id="section_7">
@@ -128,7 +94,7 @@ const ContactUs = () => {
                         {/* <!-- //! Contact Us form --> */}
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
 
-                            <form class="custom-form contact-form" role="form" >
+                            <form class="custom-form contact-form" role="form" name="google-sheet">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-floating">
@@ -138,10 +104,7 @@ const ContactUs = () => {
                                                 id="name"
                                                 class="form-control"
                                                 placeholder="Name"
-                                                required=""
-                                                value={registerUsers.name}
-                                                onChange={onRegisterUsers}
-                                            />
+                                                required="" />
 
                                             <label for="floatingInput">Name</label>
                                         </div>
@@ -156,10 +119,7 @@ const ContactUs = () => {
                                                 pattern="[^ @]*@[^ @]*"
                                                 class="form-control"
                                                 placeholder="someone@gmail.com"
-                                                required=""
-                                                value={registerUsers.email}
-                                                onChange={onRegisterUsers}
-                                            />
+                                                required="" />
 
                                             <label for="floatingInput">Email address</label>
                                         </div>
@@ -168,13 +128,11 @@ const ContactUs = () => {
                                     <div class="col-lg-3 col-md-6 col-6">
                                         <div class="form-check form-check-inline">
                                             <input
-                                                name="websites"
                                                 type="checkbox"
+                                                name="website"
                                                 class="form-check-input"
                                                 id="inlineCheckbox1"
-                                                value={registerUsers.websites}
-                                                onChange={onRegisterUsers}
-                                            />
+                                                value="Website" />
 
                                             <label class="form-check-label" for="inlineCheckbox1">
                                                 <i class="bi-globe form-check-icon"></i>
@@ -190,10 +148,7 @@ const ContactUs = () => {
                                                 type="checkbox"
                                                 class="form-check-input"
                                                 id="inlineCheckbox2"
-                                                value={registerUsers.gamedev}
-                                                onChange={onRegisterUsers}
-
-                                            />
+                                                value="Game Development" />
 
                                             <label class="form-check-label" for="inlineCheckbox2">
                                                 <i class="bi-controller form-check-icon"></i>
@@ -209,10 +164,7 @@ const ContactUs = () => {
                                                 type="checkbox"
                                                 class="form-check-input"
                                                 id="inlineCheckbox3"
-                                                value={registerUsers.ecommerce}
-                                                onChange={onRegisterUsers}
-
-                                            />
+                                                value="Ecommerce" />
 
                                             <label class="form-check-label" for="inlineCheckbox3">
                                                 <i class="bi-phone form-check-icon"></i>
@@ -228,10 +180,7 @@ const ContactUs = () => {
                                                 type="checkbox"
                                                 class="form-check-input"
                                                 id="inlineCheckbox4"
-                                                value={registerUsers.seo}
-                                                onChange={onRegisterUsers}
-
-                                            />
+                                                value="SEO" />
 
                                             <label class="form-check-label" for="inlineCheckbox4">
                                                 <i class="bi-google form-check-icon"></i>
@@ -244,27 +193,15 @@ const ContactUs = () => {
                                         <div class="form-floating">
                                             <textarea
                                                 class="form-control"
-                                                id="message"
-                                                name="message"
-                                                placeholder="Tell me about the project"
-                                                value={registerUsers.messages}
-                                                onChange={onRegisterUsers}
-                                            >
-                                            </textarea>
+                                                id="message" name="message"
+                                                placeholder="Tell me about the project"></textarea>
 
                                             <label for="floatingTextarea">Tell me about the project</label>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-3 col-12 ms-auto">
-                                        <button
-                                            type="submit"
-                                            class="form-control"
-                                            id="sub"
-                                            onClick={PortfolioUsers}
-                                        >
-                                            Submit
-                                        </button>
+                                        <button type="submit" class="form-control" id="sub">Submit</button>
                                     </div>
 
                                 </div>
