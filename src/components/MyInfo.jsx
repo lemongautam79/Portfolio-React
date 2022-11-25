@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup'
 
 const MyInfo = () => {
     return (
@@ -48,25 +49,42 @@ const MyInfo = () => {
                             <div class="about-thumb">
                                 <div class="row">
                                     <div class="col-lg-6 col-6 featured-border-bottom py-2">
-                                        <strong class="featured-numbers">2+</strong>
+                                        <strong className="featured-numbers">
+                                            <CountUp
+                                                end={2}
+                                            />
+                                        </strong>
 
                                         <p class="featured-text">Years of Experiences</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
-                                        <strong class="featured-numbers">7+</strong>
+
+                                        <strong className="featured-numbers">
+                                            <CountUp
+                                                end={7}
+                                            />+
+                                        </strong>
 
                                         <p class="featured-text">No. of skills</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 pt-4">
-                                        <strong class="featured-numbers">5</strong>
+                                        <strong className="featured-numbers">
+                                            <CountUp
+                                                end={5}
+                                            />
+                                        </strong>
 
-                                        <p class="featured-text">Project Finished</p>
+                                        <p class="featured-text">Projects Finished</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
-                                        <strong class="featured-numbers">2+</strong>
+                                        <strong className="featured-numbers">
+                                            <CountUp
+                                                end={2}
+                                            />
+                                        </strong>
 
                                         <p class="featured-text">Certificates</p>
                                     </div>
