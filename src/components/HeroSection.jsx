@@ -14,16 +14,6 @@ const HeroSection = () => {
         }
     };
 
-    // useEffect(() => {
-    //     Lottie.loadAnimation({
-    //         container: container.current,
-    //         renderer: 'svg',
-    //         loop: true,
-    //         autoplay: true,
-    //         animationData: require('../images/projects/Other files/lemondev.json')
-    //     })
-    // }, [])
-
     return (
         <>
             <section class="hero d-flex justify-content-center align-items-center" id="section_1">
@@ -45,9 +35,6 @@ const HeroSection = () => {
 
                         {/* //! Hero Image */}
                         <div class="col-lg-5 col-12 position-relative">
-
-                            {/* <!-- <div class="hero-image-wrap"></div> -->
-                            <!-- <img src="/images/portrait-happy-excited-man-holding-laptop-computer.png" class="hero-image img-fluid" alt=""> --> */}
 
                             <div class="hero-image img-fluid">
                                 <Lottie options={defaultOptions}
