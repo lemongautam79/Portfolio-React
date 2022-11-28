@@ -63,6 +63,7 @@ const MyInfo = () => {
                                         <strong className="featured-numbers">
                                             <CountUp
                                                 end={7}
+                                                duration={3}
                                             />+
                                         </strong>
 
@@ -73,6 +74,8 @@ const MyInfo = () => {
                                         <strong className="featured-numbers">
                                             <CountUp
                                                 end={5}
+                                                duration={3}
+
                                             />
                                         </strong>
 

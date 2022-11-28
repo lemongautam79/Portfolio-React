@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import lemoninsta from '../images/projects/Other files/lemoninsta.jpg'
 import Lottie from 'react-lottie';
 import laptop from '../images/projects/Other files/laptop.json'
@@ -35,6 +35,7 @@ const HeroSection = () => {
 
                         {/* //! Hero Image */}
                         <div class="col-lg-5 col-12 position-relative">
+
 
                             <div class="hero-image img-fluid">
                                 <Lottie options={defaultOptions}
