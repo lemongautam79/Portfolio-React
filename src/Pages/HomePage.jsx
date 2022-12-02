@@ -13,6 +13,7 @@ import '../css/magnific-popup.css';
 import '../css/templatemo-first-portfolio-style.css';
 
 
+
 const HomePage = () => {
     return (
         <>
