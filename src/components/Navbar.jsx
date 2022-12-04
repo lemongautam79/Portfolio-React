@@ -14,7 +14,7 @@ const Navbar = () => {
                     </button>
 
                     <Link to="/" class="navbar-brand mx-auto mx-lg-0">
-                        <img src={NavLogo} alt="Logo" height="60" width="60" loading="lazy" /></Link>
+                        <img src={NavLogo} alt="Navbar logo stating Lemon's initials" height="60" width="60" loading="lazy" /></Link>
 
                     <div class="d-flex align-items-center d-lg-none">
                         <a class="custom-btn btn" href={LGresume} download="lemon's resume">
