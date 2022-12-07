@@ -120,6 +120,10 @@ const MyTeam = () => {
                                             <i class="bi bi-dribbble"></i>
                                         </a></li>
                                     <li class="list-inline-item">
+                                        <a href="https://www.behance.net/manishbhattarai3?tracking_source=search_users|manish%20bhattarai" class="social-link" target="_blank">
+                                            <i class="bi bi-behance"></i>
+                                        </a></li>
+                                    <li class="list-inline-item">
                                         <a href="https://manishbhattarai.ml/" class="social-link" target="_blank">
                                             <i class="bi bi-globe"></i>
                                         </a></li>
