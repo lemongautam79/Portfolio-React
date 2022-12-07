@@ -137,7 +137,6 @@ const MyTeam = () => {
                                     <h5 class="mb-0">Ayush Ojha</h5><span class="small text-uppercase text-muted">Designer</span>
                                 </a>
 
-                                {/* <!-- //!Social links --> */}
                                 <ul class="social mb-0 list-inline mt-3">
                                     <li class="list-inline-item">
                                         <a href="https://www.instagram.com/ayushojha471/?hl=en" class="social-link" target="_blank">
