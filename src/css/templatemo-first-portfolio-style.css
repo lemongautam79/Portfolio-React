@@ -52,15 +52,17 @@ https://templatemo.com/tm-578-first-portfolio
 body {
   background: var(--white-color);
   font-family: var(--body-font-family);
+  overflow: overlay;
 }
 
 ::-webkit-scrollbar {
   width: 1rem;
+  background: transparent;
 }
 
-::-webkit-scrollbar-track {
-  background-color: #ffffff00;
-}
+/* ::-webkit-scrollbar-track-piece {
+  display: none;
+} */
 
 ::-webkit-scrollbar-thumb {
   background-color: #ff5003;
