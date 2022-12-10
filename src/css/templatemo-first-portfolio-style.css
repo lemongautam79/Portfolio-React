@@ -54,6 +54,21 @@ body {
   font-family: var(--body-font-family);
 }
 
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff5003;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -814,7 +829,7 @@ strong {
   outline: none;
 }
 
-.form-floating > label {
+.form-floating>label {
   color: var(--p-color);
 }
 
