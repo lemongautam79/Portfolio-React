@@ -1,8 +1,8 @@
 import { getRoles } from '@testing-library/react'
 import React from 'react'
 import topLaptop from '../images/topLaptop.jpg'
-import gore from '../images/projects/teamsimg/gore.png'
-import kalesnip from '../images/projects/teamsimg/kalesnip.png'
+import gore from '../images/projects/teamsimg/gore.webp'
+import kalesnip from '../images/projects/teamsimg/kalesnip.webp'
 import manish from '../images/projects/teamsimg/manish.jpg'
 import ojhakochoro from '../images/projects/teamsimg/ojhakochoro.jpg'
 
