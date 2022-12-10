@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.d04eeb74.css",
-    "main.js": "/static/js/main.3283b50d.js",
+    "main.js": "/static/js/main.80a98867.js",
     "static/media/FPSGamepic.png": "/static/media/FPSGamepic.c930ddcac8e11c48fb12.png",
-    "static/media/gore.png": "/static/media/gore.a594b00c0f76d0c2f23f.png",
     "static/media/GDIcon.png": "/static/media/GDIcon.4772f35577774f5a4b44.png",
-    "static/media/kalesnip.png": "/static/media/kalesnip.6bb4455f0a0867794c1e.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
     "static/media/LGresume.pdf": "/static/media/LGresume.a0fca19d820b7c0d4162.pdf",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
     "static/media/GDdashboard.png": "/static/media/GDdashboard.ce8c06c3dd8c57f1cc84.png",
     "static/media/lemoninsta.jpg": "/static/media/lemoninsta.620d62c59bda5c8847c8.jpg",
+    "static/media/kalesnip.webp": "/static/media/kalesnip.ec7e6c04541b4da0c114.webp",
     "static/media/manish.jpg": "/static/media/manish.e33f97d17baa1d9fd777.jpg",
     "static/media/ojhakochoro.jpg": "/static/media/ojhakochoro.00d0fbe4541fa19f534d.jpg",
+    "static/media/gore.webp": "/static/media/gore.480dda7449a79a88ba82.webp",
     "static/media/whiteKey.jpg": "/static/media/whiteKey.8273d2720a9d1192e915.jpg",
     "static/media/topLaptop.jpg": "/static/media/topLaptop.54434e78d527a8182ddd.jpg",
     "static/media/handshake.jpg": "/static/media/handshake.67cb93cd29748f9ca043.jpg",
@@ -21,10 +21,10 @@
     "static/media/NavLogo.png": "/static/media/NavLogo.cfacc0c6af84d6e06674.png",
     "index.html": "/index.html",
     "main.d04eeb74.css.map": "/static/css/main.d04eeb74.css.map",
-    "main.3283b50d.js.map": "/static/js/main.3283b50d.js.map"
+    "main.80a98867.js.map": "/static/js/main.80a98867.js.map"
   },
   "entrypoints": [
     "static/css/main.d04eeb74.css",
-    "static/js/main.3283b50d.js"
+    "static/js/main.80a98867.js"
   ]
 }
