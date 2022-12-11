@@ -3,6 +3,19 @@ import whiteKey from '../images/whiteKey.jpg'
 import { useCreateUsersMutation, useGetAllUsersQuery } from '../api/RTK Query/PortfolioApiSlice'
 
 const ContactUs = () => {
+// {
+//     const form = document.getElementById('form');
+
+//     form.addEventListener('submit', function handleClick(event) {
+//         event.preventDefault();
+//         // const textareaInput = document.getElementById('message');
+//         // console.log(textareaInput.value);
+//         // textareaInput.value = '';
+//         form.reset()
+//     });
+
+// }
+
     // ! GET all users
     const { data } = useGetAllUsersQuery();
     // console.log(data)
@@ -28,16 +41,17 @@ const ContactUs = () => {
             "name": "",
             "email": "",
             "messages": "",
-            "websites":"",
-            "gamedev":"",
-            "seo":"",
-            "ecommerce":""
-            
+            "websites": "",
+            "gamedev": "",
+            "seo": "",
+            "ecommerce": ""
+
         })
         alert("Info submitted")
     }
     return (
         <>
+        
             <section class="contact section-padding" id="section_7">
                 <div class="container">
                     <div class="row">
@@ -123,24 +137,27 @@ const ContactUs = () => {
                             </div>
                         </div>
 
-
+                        {/* https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2                   Get form*/}
+                        {/* https://formspree.io/f/xrgdnjjy                                           formspree */}
 
                         {/* <!-- //! Contact Us form --> */}
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
 
-                            <form class="custom-form contact-form" role="form" >
+                            <form class="custom-form contact-form" role="form" action="https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2" method="POST" name = "form">
                                 <div class="row">
+
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-floating">
                                             <input
                                                 type="text"
-                                                name="name"
+                                                name="Name"
                                                 id="name"
                                                 class="form-control"
                                                 placeholder="Name"
-                                                required=""
-                                                value={registerUsers.name}
-                                                onChange={onRegisterUsers}
+                                                required
+                                                autoComplete='off'
+                                            // value={registerUsers.name}
+                                            // onChange={onRegisterUsers}
                                             />
 
                                             <label for="floatingInput">Name</label>
@@ -151,21 +168,57 @@ const ContactUs = () => {
                                         <div class="form-floating">
                                             <input
                                                 type="email"
-                                                name="email"
+                                                name="Email"
                                                 id="email"
                                                 pattern="[^ @]*@[^ @]*"
                                                 class="form-control"
                                                 placeholder="someone@gmail.com"
-                                                required=""
-                                                value={registerUsers.email}
-                                                onChange={onRegisterUsers}
+                                                required
+                                                autoComplete='off'
+                                            // value={registerUsers.email}
+                                            // onChange={onRegisterUsers}
                                             />
 
                                             <label for="floatingInput">Email address</label>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-3 col-md-6 col-6">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                name="Phone-number"
+                                                id="name"
+                                                class="form-control"
+                                                placeholder="Phone Number"
+                                                autoComplete='off'
+                                            // value={registerUsers.name}
+                                            // onChange={onRegisterUsers}
+                                            />
+
+                                            <label for="floatingInput">Phone Number</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                name="Address"
+                                                id="name"
+                                                class="form-control"
+                                                placeholder="Address"
+                                                autoComplete='off'
+                                            // value={registerUsers.name}
+                                            // onChange={onRegisterUsers}
+                                            />
+
+                                            <label for="floatingInput">Address</label>
+                                        </div>
+                                    </div>
+
+
+                                    {/* <div class="col-lg-3 col-md-6 col-6">
                                         <div class="form-check form-check-inline">
                                             <input
                                                 name="websites"
@@ -238,17 +291,20 @@ const ContactUs = () => {
                                                 <span class="form-check-label-text">SEO</span>
                                             </label>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <div class="col-lg-12 col-12">
                                         <div class="form-floating">
                                             <textarea
-                                                class="form-control"
+                                                type="reset"
+                                                name="Message"
                                                 id="message"
-                                                name="message"
+                                                class="form-control"
                                                 placeholder="Tell me about the project"
-                                                value={registerUsers.messages}
-                                                onChange={onRegisterUsers}
+                                                required
+                                                autoComplete='off'
+                                            // value={registerUsers.messages}
+                                            // onChange={onRegisterUsers}
                                             >
                                             </textarea>
 
@@ -259,9 +315,11 @@ const ContactUs = () => {
                                     <div class="col-lg-3 col-12 ms-auto">
                                         <button
                                             type="submit"
+                                            value="submit"
                                             class="form-control"
                                             id="sub"
-                                            onClick={PortfolioUsers}
+
+                                        // onClick={PortfolioUsers}
                                         >
                                             Submit
                                         </button>
