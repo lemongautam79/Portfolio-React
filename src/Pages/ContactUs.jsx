@@ -3,21 +3,9 @@ import whiteKey from '../images/whiteKey.jpg'
 import { useCreateUsersMutation, useGetAllUsersQuery } from '../api/RTK Query/PortfolioApiSlice'
 
 const ContactUs = () => {
-// {
-//     const form = document.getElementById('form');
-
-//     form.addEventListener('submit', function handleClick(event) {
-//         event.preventDefault();
-//         // const textareaInput = document.getElementById('message');
-//         // console.log(textareaInput.value);
-//         // textareaInput.value = '';
-//         form.reset()
-//     });
-
-// }
 
     // ! GET all users
-    const { data } = useGetAllUsersQuery();
+    // const { data } = useGetAllUsersQuery();
     // console.log(data)
 
     // ! Creating users

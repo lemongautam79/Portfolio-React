@@ -10,7 +10,7 @@ export const PortfolioApiSlice = createApi({
         // ! GET all the users
         getAllUsers:builder.query({
             query:()=>({
-                url:'users/',
+                // url:'47b01bd9-a75d-49e8-98e2-50d8584a5cf2/',
                 method:"GET"
                 }),
                     providesTags:['Users']
@@ -22,7 +22,7 @@ export const PortfolioApiSlice = createApi({
             query:(newUsers)=> {
             console.log("New users", newUsers);
             return{
-                url:`users/`,
+                // url:`f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2/`,
                 method:'POST',
                 body:newUsers,
                 headers:{
