@@ -286,13 +286,10 @@ const ContactUs = () => {
                                             <textarea
                                                 type="text"
                                                 name="Message"
-                                                id="message"
-                                                size="50"
+                                                id="name"
                                                 class="form-control"
                                                 placeholder="Tell me about the project"
                                                 required
-                                                autoComplete='off'
-                                                defaultValue=""
                                             // value={registerUsers.messages}
                                             // onChange={onRegisterUsers}
                                             >
