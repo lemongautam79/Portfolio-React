@@ -304,6 +304,7 @@ const ContactUs = () => {
                                                 placeholder="Tell me about the project"
                                                 required
                                                 autoComplete='off'
+                                                defaultValue=""
                                             // value={registerUsers.messages}
                                             // onChange={onRegisterUsers}
                                             >
