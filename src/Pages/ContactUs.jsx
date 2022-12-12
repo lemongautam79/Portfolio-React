@@ -296,9 +296,10 @@ const ContactUs = () => {
                                     <div class="col-lg-12 col-12">
                                         <div class="form-floating">
                                             <textarea
-                                                type="reset"
+                                                type="text"
                                                 name="Message"
                                                 id="message"
+                                                size="50"
                                                 class="form-control"
                                                 placeholder="Tell me about the project"
                                                 required
