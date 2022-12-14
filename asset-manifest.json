@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e431b7fd.css",
+    "main.css": "/static/css/main.9600c256.css",
     "main.js": "/static/js/main.c7370537.js",
     "static/media/FPSGamepic.png": "/static/media/FPSGamepic.c930ddcac8e11c48fb12.png",
     "static/media/GDIcon.png": "/static/media/GDIcon.4772f35577774f5a4b44.png",
@@ -20,11 +20,11 @@
     "static/media/Unarlogo.jpg": "/static/media/Unarlogo.b39ae9ecf311c76d14b0.jpg",
     "static/media/NavLogo.png": "/static/media/NavLogo.cfacc0c6af84d6e06674.png",
     "index.html": "/index.html",
-    "main.e431b7fd.css.map": "/static/css/main.e431b7fd.css.map",
+    "main.9600c256.css.map": "/static/css/main.9600c256.css.map",
     "main.c7370537.js.map": "/static/js/main.c7370537.js.map"
   },
   "entrypoints": [
-    "static/css/main.e431b7fd.css",
+    "static/css/main.9600c256.css",
     "static/js/main.c7370537.js"
   ]
 }
