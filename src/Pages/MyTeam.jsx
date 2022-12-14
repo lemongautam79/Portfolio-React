@@ -11,7 +11,7 @@ const MyTeam = () => {
         <>
             <section class="section-padding" id="section_6">
                 <div class="container py-5" >
-                    <div class="row text-center text-white">
+                    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="row text-center text-white">
                         <div class="col-lg-6 col-md-8 col-12">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                 <img src={topLaptop} class="avatar-image img-fluid" alt="teamsimage" loading="lazy" />
@@ -27,7 +27,7 @@ const MyTeam = () => {
                     <div class="row text-center">
 
                         {/* <!-- //!  Ayush Gautam --> */}
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-xl-3 col-sm-6 mb-5">
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={gore} alt="Ayush's " width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
 
@@ -61,7 +61,7 @@ const MyTeam = () => {
 
 
                         {/* <!-- //! Bibhakta Lamsal --> */}
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-xl-3 col-sm-6 mb-5">
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={kalesnip} alt="kale'simage" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://www.bibhaktalamsal.com.np/" target="_blank">
@@ -93,7 +93,7 @@ const MyTeam = () => {
 
 
                         {/* <!-- //! Manish Bhattarai --> */}
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-xl-3 col-sm-6 mb-5">
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={manish} alt="Manish's Photo" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://manishbhattarai.ml/" target="_blank">
@@ -134,7 +134,7 @@ const MyTeam = () => {
 
 
                         {/* <!-- //! Ayush Ojha --> */}
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-xl-3 col-sm-6 mb-5">
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={ojhakochoro} alt="ojha'simage" width="200" height="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://www.ojhaayush.com.np/" target="_blank">

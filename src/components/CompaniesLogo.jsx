@@ -7,8 +7,8 @@ const CompaniesLogo = () => {
         <>
             {/* <!-- //! Companies logo --> */}
             <section class="clients section-padding">
-                <div class="container">
-                    <div class="row align-items-center">
+                <div  class="container">
+                    <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700" class="row align-items-center">
 
                         <div class="col-lg-12 col-12">
                             <h3 class="text-center mb-5">Companies I've had worked</h3>
@@ -32,7 +32,7 @@ const CompaniesLogo = () => {
                             <img src="images/clients/shopify.svg" class="clients-image img-fluid" alt="">
                         </div> --> */}
 
-                        <div class="col-lg-2 col-4 me-auto clients-item-height">
+                        <div  class="col-lg-2 col-4 me-auto clients-item-height">
                             <a href="https://unarstore.com/#/" target="_blank">
                                 <img src={Unarlogo} class="clients-image img-fluid" alt="Unarlogo" loading="lazy" />
                             </a>

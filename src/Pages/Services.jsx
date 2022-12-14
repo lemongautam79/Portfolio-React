@@ -7,7 +7,7 @@ const Services = () => {
             {/* <!-- //! Services wala with cards  --> */}
             <section class="services section-padding" id="section_3">
                 <div class="container">
-                    <div class="row">
+                    <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
@@ -19,7 +19,7 @@ const Services = () => {
                             <div class="row pt-lg-5">
 
                                 {/* <!-- //! Websites --> */}
-                                <div class="col-lg-6 col-12">
+                                <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">Websites</h3>
@@ -36,7 +36,7 @@ const Services = () => {
 
                                 {/* <!-- //!Game Dev --> */}
 
-                                <div class="col-lg-6 col-12">
+                                <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">Game Dev</h3>
@@ -56,7 +56,7 @@ const Services = () => {
 
                                 {/* <!-- //!Ecommerce --> */}
 
-                                <div class="col-lg-6 col-12">
+                                <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">E-commerce</h3>
@@ -74,7 +74,7 @@ const Services = () => {
                                 </div>
 
                                 {/* <!-- //! SEO --> */}
-                                <div class="col-lg-6 col-12">
+                                <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">SEO</h3>

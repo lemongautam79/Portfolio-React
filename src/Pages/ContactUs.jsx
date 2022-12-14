@@ -42,7 +42,7 @@ const ContactUs = () => {
         
             <section class="contact section-padding" id="section_7">
                 <div class="container">
-                    <div class="row">
+                    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700"  class="row">
 
                         <div class="col-lg-6 col-md-8 col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">

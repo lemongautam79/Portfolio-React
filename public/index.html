@@ -26,7 +26,7 @@
     <meta property="og:description" content="Just some React Developer">
     <meta property="og:url" content="https://lemongautam.com.np">
     <meta property="og:type" content="website">
-    <meta name = "robots" content = "index, archive">
+    <meta name="robots" content="index, archive">
 
     <!-- //! Favicon wala -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -43,6 +43,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- //! AOS (Animate on Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -95,8 +98,11 @@
 
     <script src="/src/js/CustomWala.js"></script>
 
-
-
+    <!--! AOS initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
