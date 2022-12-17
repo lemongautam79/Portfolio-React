@@ -8,7 +8,7 @@ const CompaniesLogo = () => {
             {/* <!-- //! Companies logo --> */}
             <section class="clients section-padding">
                 <div  class="container">
-                    <div  data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700" class="row align-items-center">
+                    <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="row align-items-center">
 
                         <div class="col-lg-12 col-12">
                             <h3 class="text-center mb-5">Companies I've had worked</h3>

@@ -21,7 +21,7 @@ const MyStory = () => {
                 <div class="container">
                     <div class="row">
 
-                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "1000" class="col-lg-6 col-12">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="col-lg-6 col-12">
                             {/* <!-- <img src="images/couple-working-from-home-together-sofa.jpg" class="about-image img-fluid" alt=""/> --> */}
                             {/* <!-- //! MyStory wala animation wala --> */}
 
@@ -33,7 +33,7 @@ const MyStory = () => {
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-offset="500" data-aos-duration = "1000" class="col-lg-6 col-12 mt-5 mt-lg-0">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="col-lg-6 col-12 mt-5 mt-lg-0">
                             <div class="about-thumb">
 
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">

@@ -7,7 +7,7 @@ const MyInfo = () => {
             {/* <!-- //! Information --> */}
             <section class="featured section-padding">
                 <div class="container">
-                    <div   data-aos="fade-up" data-aos-offset="500" data-aos-duration = "700" class="row">
+                    <div   data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="row">
 
                         <div  class="col-lg-6 col-12">
                             <div  class="profile-thumb">
