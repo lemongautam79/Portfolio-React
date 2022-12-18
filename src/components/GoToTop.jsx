@@ -8,7 +8,7 @@ const GoToTop = () => {
   };
 
   const listenToScroll = () => {
-    let heightToHidden = 20;
+    let heightToHidden = 500;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
 
@@ -32,16 +32,16 @@ const GoToTop = () => {
     }}>
       {isVisible && (
         <div style={{
-          fontSize: "2.4rem",
-          width: "6rem",
-          height: "6rem",
+          fontSize: "1.7rem",
+          width: "3rem",
+          height: "3rem",
           color: "#fff",
           backgroundColor: "#ff5003",
           // boxShadow: "${({ theme }) => theme.colors.shadow}",
           borderRadius: "50%",
           position: "fixed",
           bottom: "5rem",
-          right: "5rem",
+          right: "3.5rem",
           zIndex: "999",
           display: "flex",
           justifyContent: "center",
