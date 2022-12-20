@@ -1207,4 +1207,8 @@ strong {
   .hero-image {
     min-width: inherit;
   }
+
+  .programmer-typing{
+    display: none;
+  }
 }

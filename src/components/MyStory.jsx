@@ -21,19 +21,21 @@ const MyStory = () => {
                 <div class="container">
                     <div class="row">
 
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="col-lg-6 col-12">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="600" class="col-lg-6 col-12">
                             {/* <!-- <img src="images/couple-working-from-home-together-sofa.jpg" class="about-image img-fluid" alt=""/> --> */}
                             {/* <!-- //! MyStory wala animation wala --> */}
 
-                            <div class="col-lg-5 col-12 position-relative">
-                                <Lottie options={defaultOptions}
-                                    height={400}
-                                    width={600}
-                                />
+                            <div class="col-lg-5 col-12 position-relative programmer-typing">
+                                {/* <div class='hero-image img-fluid'> */}
+                                    <Lottie options={defaultOptions}
+                                        height={400}
+                                        width={600}
+                                    />
+                                {/* </div> */}
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="col-lg-6 col-12 mt-5 mt-lg-0">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="600" class="col-lg-6 col-12 mt-5 mt-lg-0">
                             <div class="about-thumb">
 
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
@@ -49,7 +51,7 @@ const MyStory = () => {
                                 <p></p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
