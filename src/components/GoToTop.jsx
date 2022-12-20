@@ -41,7 +41,7 @@ const GoToTop = () => {
           borderRadius: "50%",
           position: "fixed",
           bottom: "6rem",
-          right: "1.75rem",
+          right: "1.6rem",
           zIndex: "999",
           display: "flex",
           justifyContent: "center",
