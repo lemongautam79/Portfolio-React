@@ -10,7 +10,7 @@ const Projects = () => {
         <>
             <section class="projects section-padding" id="section_4">
                 <div class="container">
-                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="row">
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="row">
 
                         <div class="col-lg-8 col-md-8 col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
@@ -22,7 +22,7 @@ const Projects = () => {
 
                         <div class="clearfix"></div>
 
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-4 col-md-6 col-12">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
                                     <small class="projects-tag">Game Dev</small>
@@ -36,7 +36,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-4 col-md-6 col-12">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
                                     <small class="projects-tag">Game Dev</small>
@@ -50,7 +50,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-4 col-md-6 col-12">
+                        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
                                     <small class="projects-tag">Web Dev</small>
@@ -63,6 +63,7 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
+                            
 
                     </div>
                 </div>
