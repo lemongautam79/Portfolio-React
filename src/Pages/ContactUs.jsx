@@ -39,10 +39,10 @@ const ContactUs = () => {
     }
     return (
         <>
-        
+
             <section class="contact section-padding" id="section_7">
                 <div class="container">
-                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="row">
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="row">
 
                         <div class="col-lg-6 col-md-8 col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
@@ -121,6 +121,9 @@ const ContactUs = () => {
                                     <a href="tel: +9779861000213">
                                         9861000213
                                     </a>
+                                    <a href="tel: +9779818310190">
+                                        9818310190
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -131,7 +134,7 @@ const ContactUs = () => {
                         {/* <!-- //! Contact Us form --> */}
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
 
-                            <form class="custom-form contact-form" role="form" action="https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2" method="POST" name = "form">
+                            <form class="custom-form contact-form" role="form" action="https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2" method="POST" name="form">
                                 <div class="row">
 
                                     <div class="col-lg-6 col-md-6 col-12">
