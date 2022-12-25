@@ -38,7 +38,10 @@ const MyInfo = () => {
 
                                     <p>
                                         <span class="profile-small-title">Phone</span>
-                                        <span><a href="tel: 9861000213">9861000213</a></span>
+                                        <span>
+                                        <a href="tel: 9861000213">9861000213</a></span>
+                                        <span>
+                                        <a href="tel: 9818310190">9818310190</a></span>
                                     </p>
 
                                 </div>
