@@ -10,7 +10,7 @@ const Footer = () => {
                         <div class="col-lg-12 col-12">
                             <div class="copyright-text-wrap">
                                 <p class="mb-0">
-                                    <span class="copyright-text">Copyright © 2022  All rights reserved.</span>
+                                    <span class="copyright-text">Copyright © 2023  All rights reserved.</span>
                                     <a rel="sponsored" href="#" target="_blank">Lemon Gautam</a>
                                 </p>
                             </div>
