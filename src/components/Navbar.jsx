@@ -58,6 +58,7 @@ const Navbar = () => {
                             <a class="custom-btn btn" href={LGresume} download="lemon's resume">
                                 Resume
                             </a>
+                            <button class="custom-btn btn">es</button>
                         </div>
                     </div>
                 </div>
