@@ -1,8 +1,10 @@
 import React from 'react'
 import GDIcon from '../images/projects/Other files/GDIcon.png'
 import Unarlogo from '../images/projects/Other files/Unarlogo.jpg'
+import { useTranslation } from 'react-i18next'
 
 const CompaniesLogo = () => {
+    const {t} = useTranslation()
     return (
         <>
             {/* <!-- //! Companies logo --> */}
@@ -11,7 +13,7 @@ const CompaniesLogo = () => {
                     <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "600" class="row align-items-center">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="text-center mb-5">Companies I've had worked</h3>
+                            <h3 class="text-center mb-5">{t('companies_work')}</h3>
                         </div>
 
                         <div class="col-lg-2 col-4 ms-auto clients-item-height">

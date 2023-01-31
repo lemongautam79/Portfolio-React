@@ -1,16 +1,60 @@
 {
-    "welcome": "Hello! People",
-    "frontend_developer": "Desarrollador frontend",
-    "backend_developer": "Desarrollador backend",
-    "designer": "diseñador",
-    "let's_begin": "Vamos a empezar",
+    "//navbar":"comment",
+    "home":"CASA",
+    "about_nav":"ACERCA DE",
+    "services_nav":"SERVICIOS",
+    "projects_nav":"PROYECTOS",
+    "skills_nav":"HABILIDADES",
+    "myteams_nav":"MI EQUIPO",
+    "contact_nav":"CONTACTO",
+    "resume":"Reanudar",
+
+    "//hero_section":"comment",
+    "welcome": "¡Hola! Gente",
+    "frontend_gamedev":"Interfaz y desarrollo de juegos",
+    "lets_begin": "Vamos a empezar",
+
+    "//story":"comment",
     "my_story": "Mi historia",
     "intro": "un poco sobre lemon",
     "intro_desc": "Tech encabezado obstinado con un poco de actitud, amante de la música y la programación en la sangre",
-    "info": "información",
+
+    "//info":"comment",
+    "info": "Información",
     "name": "Nombre",
+    "actual_name":"Lemon Gautam",
+    "dob":"DOB",
     "date": "21 de mayo de 2003",
-    "address": "dirección",
-    "phone": "teléfono",
-    "exp": "años de experiencias"
+    "Email":"Electrónico",
+    "address": "Dirección",
+    "actual_address": "Chandragiri-13, KTM",
+    "phone": "Teléfono",
+    "actual_phone_ntc":"+9779861000213", 
+    "actual_phone_ncell":"+9779818310190",
+    "exp": "Años de experiencias",
+    "skills_no":"Nº de habilidades",
+    "projects_finished":"Proyectos Terminados",
+    "certificates":"Certificados",
+
+    "companies_work":"Empresas en las que he trabajado",
+
+    "//services":"comment",
+    "services":"Servicios",
+    "websites":"Sitios web",
+    "web_desc":"Si necesita un sitio web personalizado para su negocio, no dude en hablar conmigo.",
+    "discover_more":"Descubrir más",
+
+    "game_dev":"Game Dev",
+    "game_desc":"2D and 3D games created using Unity",
+    "ecommerce":"Ecommerce",
+    "ecom_desc":"If you need a customized ecommerce website for your business, feel free to discuss with me.",
+    "seo":"SEO",
+    "seo_desc":"If you need to optimize your website search position for your business, feel free to discuss with me.",
+    
+    "frontend_developer": "Desarrollador frontend",
+    "backend_developer": "Desarrollador backend",
+    "designer": "diseñador"
+    
+    
+    
 }

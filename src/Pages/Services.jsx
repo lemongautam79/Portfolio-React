@@ -1,32 +1,34 @@
 import React from 'react'
 import handshake from '../images/handshake.jpg'
+import { useTranslation } from 'react-i18next'
 
 const Services = () => {
+    const { t } = useTranslation();
     return (
         <>
             {/* <!-- //! Services wala with cards  --> */}
             <section class="services section-padding" id="section_3">
                 <div class="container">
-                    <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="row">
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="row">
 
                         <div class="col-lg-10 col-12 mx-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                 <img src={handshake} class="avatar-image img-fluid" alt="servicesimage" loading="lazy" />
 
-                                <h2 class="text-white ms-4 mb-0">Services</h2>
+                                <h2 class="text-white ms-4 mb-0">{t('services')}</h2>
                             </div>
 
                             <div class="row pt-lg-5">
 
                                 {/* <!-- //! Websites --> */}
-                                <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-6 col-12">
+                                <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Websites</h3>
+                                            <h3 class="mb-0">{t('websites')}</h3>
                                         </div>
 
-                                        <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <p>{t('web_desc')}</p>
+                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">{t('discover_more')}</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-globe"></i>
@@ -36,7 +38,7 @@ const Services = () => {
 
                                 {/* <!-- //!Game Dev --> */}
 
-                                <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-6 col-12">
+                                <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">Game Dev</h3>
@@ -56,7 +58,7 @@ const Services = () => {
 
                                 {/* <!-- //!Ecommerce --> */}
 
-                                <div  data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-6 col-12">
+                                <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">E-commerce</h3>
@@ -74,7 +76,7 @@ const Services = () => {
                                 </div>
 
                                 {/* <!-- //! SEO --> */}
-                                <div data-aos="fade-up" data-aos-offset="200" data-aos-duration = "700"  class="col-lg-6 col-12">
+                                <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                             <h3 class="mb-0">SEO</h3>

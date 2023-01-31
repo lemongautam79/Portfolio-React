@@ -1,0 +1,54 @@
+{
+    "//navbar":"comment",
+    "home":"घर",
+    "about_nav":"बारेमा",
+    "services_nav":"सेवाहरू",
+    "projects_nav":"परियोजनाहरू",
+    "skills_nav":"कौशल",
+    "myteams_nav":"मेरो टोली",
+    "contact_nav":"सम्पर्क",
+    "resume":"बायो डाटा",
+
+    "//hero_section":"comment",
+    "welcome": "नमस्ते!",
+    "frontend_gamedev":"फ्रन्टएन्ड र खेल देव",
+    "lets_begin": "सुरु गरौं",
+
+    "//story":"comment",
+    "my_story": "मेरो कथा",
+    "intro": "लेमनकाे बारेमा थोरै",
+    "intro_desc": "अलिकति मनोवृत्ति, संगीत प्रेमी र रगतमा प्रोग्रामिङको साथ टेकले जिद्दी गर्यो",
+
+    "//info":"comment",
+    "info": "जानकारी",
+    "name": "नाम",
+    "actual_name":"लेमन गौतम",
+    "dob":"जन्म",
+    "date": "जेठ ७, २०६० वि.सी",
+    "Email":"इमेल",
+    "address": "ठेगाना",
+    "actual_address": "चन्द्रागिरि-१३, काठमाडौं",
+    "phone": "फोन",
+    "actual_phone_ntc":"+९७७९८६१०००२१३",
+    "actual_phone_ncell":"+९७७९८१८३१०१९०",
+    "exp": "वर्षौंको अनुभव",
+    "skills_no":"सीप संख्या",
+    "projects_finished":"परियोजनाहरू सम्पन्न",
+    "certificates":"प्रमाणपत्रहरू",
+
+    "companies_work":"मैले काम गरेको कम्पनीहरू",
+
+    "//services":"comment",
+    "services":"सेवाहरू",
+    "websites":"वेबसाइटहरू",
+    "web_desc":"यदि तपाईंलाई आफ्नो व्यवसायको लागि अनुकूलित वेबसाइट चाहिन्छ भने, मसँग छलफल गर्न नहिचकिचाउनुहोस्।",
+    "discover_more":"थप पत्ता लगाउनुहोस्",
+
+    "game_dev":"Game Dev",
+    "game_desc":"2D and 3D games created using Unity",
+    "ecommerce":"Ecommerce",
+    "ecom_desc":"If you need a customized ecommerce website for your business, feel free to discuss with me.",
+    "seo":"SEO",
+    "seo_desc":"If you need to optimize your website search position for your business, feel free to discuss with me."
+
+}

@@ -2,8 +2,10 @@ import React from 'react'
 import lemoninsta from '../images/projects/Other files/lemoninsta.jpg'
 import Lottie from 'react-lottie';
 import laptop from '../images/projects/Other files/laptop.json'
-const HeroSection = () => {
+import { useTranslation } from 'react-i18next';
 
+const HeroSection = () => {
+    const { t } = useTranslation();
 
     const defaultOptions = {
         loop: true,
@@ -25,11 +27,11 @@ const HeroSection = () => {
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
                                     <img src={lemoninsta} class="avatar-image avatar-image-large img-fluid" alt="avatar" loading="lazy" />
 
-                                    <h1 class="hero-title ms-3 mb-0">Hello People</h1>
+                                    <h1 class="hero-title ms-3 mb-0">{t('welcome')}</h1>
                                 </div>
 
-                                <h2 class="mb-4">Frontend & Game Dev </h2>
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
+                                <h2 class="mb-4">{t('frontend_gamedev')} </h2>
+                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">{t('lets_begin')}</a></p>
                             </div>
                         </div>
 

@@ -37,7 +37,7 @@ https://templatemo.com/tm-578-first-portfolio
   --h5-font-size: 24px;
   --h6-font-size: 22px;
   --p-font-size: 18px;
-  --menu-font-size: 12px;
+  --menu-font-size: 15px;
   --copyright-font-size: 14px;
 
   --border-radius-large: 100px;
@@ -319,6 +319,73 @@ strong {
 .custom-link:hover {
   background-color: var(--secondary-color);
 }
+
+/*---------------------------------------
+  TRANSLATE               
+-----------------------------------------*/
+.dropbtn {
+  background-color: #535da1;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content option:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #ffffff;} */
+
+
+/* Drop down ChatGPT */
+.dropdownGPT {
+  position: absolute;
+  background-color: white;
+  display: none;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+li:hover .dropdownGPT {
+  display: block;
+}
+
+
+
+
+
 
 /*---------------------------------------
   NAVIGATION              
@@ -1208,7 +1275,7 @@ strong {
     min-width: inherit;
   }
 
-  .programmer-typing{
+  .programmer-typing {
     display: none;
   }
 }
