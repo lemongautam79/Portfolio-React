@@ -383,6 +383,35 @@ li:hover .dropdownGPT {
 }
 
 
+/* Chat GPT CSS for translate */
+/* .navTrans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navTrans .ulTrans {
+  list-style: none;
+  display: flex;
+}
+
+.navTrans .liTrans {
+  padding: 10px;
+}
+
+.dropdown-menuTrans {
+  display: none;
+  background-color: red;
+  position: absolute;
+}
+
+.navTrans .liTrans:hover .dropdown-menuTrans {
+  display: block;
+  background-color: white;
+  left: 10px;
+} */
+
+
+
 
 
 

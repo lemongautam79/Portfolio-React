@@ -15,18 +15,18 @@ i18n
         // (tip move them in a JSON file and import them,
         // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
         resources: {
-            en: {
+            En: {
                 translation: translate_en,
             },
-            es: {
+            Es: {
                 translation: translate_es,
             },
-            ne: {
+            Ne: {
                 translation: translate_ne,
             },
         },
-        lng: 'en', // if you're using a language detector, do not define the lng option
-        fallbackLng: 'en',
+        lng: 'En', // if you're using a language detector, do not define the lng option
+        fallbackLng: 'En',
 
         interpolation: {
             escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
@@ -35,6 +35,8 @@ i18n
 const Navbar = () => {
     const { t } = useTranslation();
     const [value, setValue] = useState(localStorage.getItem('lang'))
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
 
     const handleChange = (event) => {
         setValue(event.target.value);
@@ -111,18 +113,39 @@ const Navbar = () => {
                                 {t('resume')}
                             </a>
 
+                            <h4 class="custom-btn btn" >{value}</h4>
+
                             <div className="dropdown">
                                 <div class="dropbtn">
                                     <select
                                         value={value}
                                         onChange={handleChange}
                                         name="">
-                                        <option value='en'>En</option>
-                                        <option value='ne'>नेपा</option>
-                                        <option value='es'>Es</option>
+                                        <option value='En'>En</option>
+                                        <option value='Ne'>नेपा</option>
+                                        <option value='Es'>Es</option>
                                     </select>
                                 </div>
                             </div>
+
+                            {/* <nav className='navTrans'>
+                                <ul className='ulTrans'>
+                                    <li className='liTrans'
+                                        onMouseEnter={() => setIsDropdownOpen(true)}
+                                        onMouseLeave={() => setIsDropdownOpen(false)}
+                                    >
+                                        {value}
+                                        {isDropdownOpen && (
+                                            <ul className="dropdown-menu">
+                                                <li className='liTrans' onClick={() => handleChange('en')}>En</li>
+                                                <li className='liTrans' onClick={() => handleChange('es')}>Es</li>
+                                                <li className='liTrans' onClick={() => handleChange('ne')}>Ne</li>
+                                            </ul>
+                                        )}
+                                    </li>
+                                </ul>
+                            </nav> */}
+
                         </div>
                     </div>
                 </div>
