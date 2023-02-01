@@ -121,8 +121,10 @@ const ContactUs = () => {
 
                                 <p class="mb-0">
                                     <a href="tel: +9779861000213">
-                                        {t('actual_phone_ntc')},
+                                        {t('actual_phone_ntc')}
                                     </a>
+                                </p>
+                                <p class="mb-0">
                                     <a href="tel: +9779818310190">
                                         {t('actual_phone_ncell')}
                                     </a>

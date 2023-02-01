@@ -113,11 +113,13 @@ const Navbar = () => {
                                 {t('resume')}
                             </a>
 
-                            <h4 class="custom-btn btn" >{value}</h4>
+                            {/* <h4 class="custom-btn btn" >{value}</h4> */}
 
                             <div className="dropdown">
                                 <div class="dropbtn">
                                     <select
+                                        className="custom-btn btn"
+                                        style={{ "borderRadius": "none", "webkitAppearance": "none" }}
                                         value={value}
                                         onChange={handleChange}
                                         name="">

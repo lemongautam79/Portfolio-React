@@ -35,6 +35,10 @@
     "skills_no":"No. of skills",
     "projects_finished":"Projects Finished",
     "certificates":"Certificates",
+    "expe_value":"2",
+    "skills_value":"7",
+    "projects_value":"5",
+    "cert_value":"2",
 
     "companies_work":"Companies I've had worked",
 

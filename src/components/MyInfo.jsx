@@ -55,9 +55,10 @@ const MyInfo = () => {
                                 <div class="row">
                                     <div class="col-lg-6 col-6 featured-border-bottom py-2">
                                         <strong className="featured-numbers">
-                                            <CountUp
+                                            {/* <CountUp
                                                 end={2}
-                                            />
+                                            /> */}
+                                            {t('expe_value')}
                                         </strong>
 
                                         <p class="featured-text">{t('exp')}</p>
@@ -66,10 +67,12 @@ const MyInfo = () => {
                                     <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
 
                                         <strong className="featured-numbers">
-                                            <CountUp
+                                            {/* <CountUp
                                                 end={7}
                                                 duration={3}
-                                            />+
+                                            /> */}
+                                            {t('skills_value')}
+                                            +
                                         </strong>
 
                                         <p class="featured-text">{t('skills_no')}</p>
@@ -77,11 +80,11 @@ const MyInfo = () => {
 
                                     <div class="col-lg-6 col-6 pt-4">
                                         <strong className="featured-numbers">
-                                            <CountUp
+                                            {/* <CountUp
                                                 end={5}
                                                 duration={3}
-
-                                            />
+                                            /> */}
+                                            {t('projects_value')}
                                         </strong>
 
                                         <p class="featured-text">{t('projects_finished')}</p>
@@ -89,9 +92,10 @@ const MyInfo = () => {
 
                                     <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
                                         <strong className="featured-numbers">
-                                            <CountUp
+                                            {/* <CountUp
                                                 end={2}
-                                            />
+                                            /> */}
+                                            {t('cert_value')}
                                         </strong>
 
                                         <p class="featured-text">{t('certificates')}</p>
