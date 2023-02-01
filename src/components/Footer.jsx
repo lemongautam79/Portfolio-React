@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+    const { t } = useTranslation()
     return (
         <>
             <footer class="site-footer">
@@ -10,8 +12,8 @@ const Footer = () => {
                         <div class="col-lg-12 col-12">
                             <div class="copyright-text-wrap">
                                 <p class="mb-0">
-                                    <span class="copyright-text">Copyright © 2023  All rights reserved.</span>
-                                    <a rel="sponsored" href="/" target="_blank">Lemon Gautam</a>
+                                    <span class="copyright-text">{t('copyright')}</span>
+                                    <a rel="sponsored" href="/" target="_blank">{t('full_name')}</a>
                                 </p>
                             </div>
                         </div>

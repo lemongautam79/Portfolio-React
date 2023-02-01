@@ -1,7 +1,9 @@
 import React from 'react'
 import reactlogo from '../images/projects/Other files/reactlogo.png'
+import { useTranslation } from 'react-i18next'
 
 const Skills = () => {
+    const {t} = useTranslation()
     return (
         <>
             <section class="clients" id=" section_5">
@@ -9,7 +11,7 @@ const Skills = () => {
                     <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="row align-items-center ">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="text-center mb-5">Skills</h3>
+                            <h3 class="text-center mb-5">{t('skills')}</h3>
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 ms-auto clients-item-height">

@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import whiteKey from '../images/whiteKey.jpg'
 import { useCreateUsersMutation, useGetAllUsersQuery } from '../api/RTK Query/PortfolioApiSlice'
+import { useTranslation } from 'react-i18next'
 
 const ContactUs = () => {
+    const { t } = useTranslation()
 
     // ! GET all users
     // const { data } = useGetAllUsersQuery();
@@ -48,7 +50,7 @@ const ContactUs = () => {
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                                 <img src={whiteKey} class="avatar-image img-fluid" alt="contactimage" loading="lazy" />
 
-                                <h2 class="text-white ms-4 mb-0">Contact Me</h2>
+                                <h2 class="text-white ms-4 mb-0">{t('contact')}</h2>
                             </div>
                         </div>
 
@@ -56,20 +58,20 @@ const ContactUs = () => {
 
                         <div class="col-lg-3 col-md-6 col-12 pe-lg-0">
                             <div class="contact-info contact-info-border-start d-flex flex-column">
-                                <strong class="site-footer-title d-block mb-3">Services</strong>
+                                <strong class="site-footer-title d-block mb-3">{t('services')}</strong>
 
                                 <ul class="footer-menu">
-                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Websites</a></li>
+                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">{t('websites')}</a></li>
 
-                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Game Dev</a></li>
+                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">{t('game_dev')}</a></li>
 
-                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Ecommerce</a></li>
+                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">{t('ecommerce')}</a></li>
 
-                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">SEO</a></li>
+                                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">{t('seo')}</a></li>
                                 </ul>
 
                                 {/* <!-- //! Stay Connected --> */}
-                                <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
+                                <strong class="site-footer-title d-block mt-4 mb-3">{t('stay_connected')}</strong>
 
                                 <ul class="social-icon">
                                     <li class="social-icon-item"><a href="https://twitter.com/Lemongautam79" target="_blank" class="social-icon-link bi-twitter"></a></li>
@@ -93,21 +95,21 @@ const ContactUs = () => {
                                         </a></li>
                                 </ul>
 
-                                <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
+                                <strong class="site-footer-title d-block mt-4 mb-3">{t('start_project')}</strong>
 
-                                <p class="mb-0">I’m available for freelance projects</p>
+                                <p class="mb-0">{t('start_desc')}</p>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
                             <div class="contact-info d-flex flex-column">
-                                <strong class="site-footer-title d-block mb-3">About</strong>
+                                <strong class="site-footer-title d-block mb-3">{t('about')}</strong>
 
                                 <p class="mb-2">
-                                    Lemon is a professional game & web developer. Feel free to get in touch with me.
+                                    {t('about_desc')}
                                 </p>
 
-                                <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
+                                <strong class="site-footer-title d-block mt-4 mb-3">{t('Email')}</strong>
 
                                 <p>
                                     <a href="mailto:azulgautam79@gmail.com">
@@ -115,14 +117,14 @@ const ContactUs = () => {
                                     </a>
                                 </p>
 
-                                <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
+                                <strong class="site-footer-title d-block mt-4 mb-3">{t('call')}</strong>
 
                                 <p class="mb-0">
                                     <a href="tel: +9779861000213">
-                                        9861000213,
+                                        {t('actual_phone_ntc')},
                                     </a>
                                     <a href="tel: +9779818310190">
-                                         9818310190
+                                        {t('actual_phone_ncell')}
                                     </a>
                                 </p>
                             </div>
@@ -151,7 +153,7 @@ const ContactUs = () => {
                                             // onChange={onRegisterUsers}
                                             />
 
-                                            <label for="floatingInput">Name</label>
+                                            <label for="floatingInput">{t('name')}</label>
                                         </div>
                                     </div>
 
@@ -170,7 +172,7 @@ const ContactUs = () => {
                                             // onChange={onRegisterUsers}
                                             />
 
-                                            <label for="floatingInput">Email address</label>
+                                            <label for="floatingInput">{t('email_add')}</label>
                                         </div>
                                     </div>
 
@@ -187,7 +189,7 @@ const ContactUs = () => {
                                             // onChange={onRegisterUsers}
                                             />
 
-                                            <label for="floatingInput">Phone Number</label>
+                                            <label for="floatingInput">{t('phone')}</label>
                                         </div>
                                     </div>
 
@@ -204,7 +206,7 @@ const ContactUs = () => {
                                             // onChange={onRegisterUsers}
                                             />
 
-                                            <label for="floatingInput">Address</label>
+                                            <label for="floatingInput">{t('address')}</label>
                                         </div>
                                     </div>
 
@@ -298,7 +300,7 @@ const ContactUs = () => {
                                             >
                                             </textarea>
 
-                                            <label for="floatingTextarea">Tell me about the project</label>
+                                            <label for="floatingTextarea">{t('tell_project')}</label>
                                         </div>
                                     </div>
 
@@ -311,7 +313,7 @@ const ContactUs = () => {
 
                                         // onClick={PortfolioUsers}
                                         >
-                                            Submit
+                                            {t('submit')}
                                         </button>
                                     </div>
 

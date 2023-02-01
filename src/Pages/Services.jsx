@@ -41,12 +41,12 @@ const Services = () => {
                                 <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Game Dev</h3>
+                                            <h3 class="mb-0">{t('game_dev')}</h3>
                                         </div>
 
-                                        <p>2D and 3D games created using Unity</p>
+                                        <p>{t('game_desc')}</p>
 
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">{t('discover_more')}</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor" class="bi bi-unity" viewBox="0 0 16 16">
@@ -61,13 +61,13 @@ const Services = () => {
                                 <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">E-commerce</h3>
+                                            <h3 class="mb-0">{t('ecommerce')}</h3>
 
                                         </div>
 
-                                        <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
+                                        <p>{t('ecom_desc')}</p>
 
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <a href="" class="custom-btn custom-border-btn btn mt-3">{t('discover_more')}</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-phone"></i>
@@ -79,13 +79,13 @@ const Services = () => {
                                 <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">SEO</h3>
+                                            <h3 class="mb-0">{t('seo')}</h3>
 
                                         </div>
 
-                                        <p>If you need to optimize your website search position for your business, feel free to discuss with me.</p>
+                                        <p>{t('seo_desc')}</p>
 
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">{t('discover_more')}</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-google"></i>

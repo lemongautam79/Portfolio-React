@@ -4,8 +4,10 @@ import whiteKey from '../images/whiteKey.jpg'
 import Chromedino from '../images/projects/Other files/Chromedino.png'
 import FPSGamepic from '../images/projects/Other files/FPSGamepic.png'
 import GDdashboard from '../images/projects/Other files/GDdashboard.png'
+import { useTranslation } from 'react-i18next'
 
 const Projects = () => {
+    const {t} = useTranslation()
     return (
         <>
             <section class="projects section-padding" id="section_4">
@@ -16,7 +18,7 @@ const Projects = () => {
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                                 <img src={whiteKey} class="avatar-image img-fluid" alt="projectimage" loading="lazy" />
 
-                                <h2 class="text-white ms-4 mb-0">Projects</h2>
+                                <h2 class="text-white ms-4 mb-0">{t('projects')}</h2>
                             </div>
                         </div>
 
@@ -25,9 +27,9 @@ const Projects = () => {
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
-                                    <small class="projects-tag">Game Dev</small>
+                                    <small class="projects-tag">{t('game_dev')}</small>
 
-                                    <h3 class="projects-title">FPS Shooter</h3>
+                                    <h3 class="projects-title">{t('FPS_shooter')}</h3>
                                 </div>
 
                                 <a href={FPSGamepic} class="popup-image">
@@ -39,9 +41,9 @@ const Projects = () => {
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
-                                    <small class="projects-tag">Game Dev</small>
+                                    <small class="projects-tag">{t('game_dev')}</small>
 
-                                    <h3 class="projects-title">Chrome Dinosaur</h3>
+                                    <h3 class="projects-title">{t('Chrome_dino')}</h3>
                                 </div>
 
                                 <a href={Chromedino}>
@@ -53,7 +55,7 @@ const Projects = () => {
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
-                                    <small class="projects-tag">Web Dev</small>
+                                    <small class="projects-tag">{t('web_dev')}</small>
 
                                     <h3 class="projects-title">G&D DCR</h3>
                                 </div>

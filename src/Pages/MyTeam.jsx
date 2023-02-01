@@ -5,8 +5,10 @@ import gore from '../images/projects/teamsimg/gore.webp'
 import kalesnip from '../images/projects/teamsimg/kalesnip.webp'
 import manish from '../images/projects/teamsimg/manish.jpg'
 import ojhakochoro from '../images/projects/teamsimg/ojhakochoro.jpg'
+import { useTranslation } from 'react-i18next'
 
 const MyTeam = () => {
+    const {t} = useTranslation()
     return (
         <>
             <section class="section-padding" id="section_6">
@@ -15,7 +17,7 @@ const MyTeam = () => {
                         <div class="col-lg-6 col-md-8 col-12">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                 <img src={topLaptop} class="avatar-image img-fluid" alt="teamsimage" loading="lazy" />
-                                <h2 class="text-white ms-4 mb-0">My Team</h2>
+                                <h2 class="text-white ms-4 mb-0">{t('my_team')}</h2>
                             </div>
                         </div>
 
@@ -32,8 +34,8 @@ const MyTeam = () => {
                                 <img src={gore} alt="Ayush's " width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
 
                                 <a href="https://www.gautamaayush.com.np/" target="_blank">
-                                    <h5 class="mb-0">Ayush Gautam</h5>
-                                    <span class="small text-uppercase text-muted">Backend Developer</span>
+                                    <h5 class="mb-0">{t('gorey')}</h5>
+                                    <span class="small text-uppercase text-muted">{t('backend_developer')}</span>
                                 </a>
 
                                 {/* <!-- //!Social links --> */}
@@ -65,7 +67,7 @@ const MyTeam = () => {
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={kalesnip} alt="kale'simage" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://www.bibhaktalamsal.com.np/" target="_blank">
-                                    <h5 class="mb-0">Bibhakta Lamsal</h5><span class="small text-uppercase text-muted">Frontend Developer</span>
+                                    <h5 class="mb-0">{t('kale')}</h5><span class="small text-uppercase text-muted">{t('frontend_developer')}</span>
                                 </a>
 
                                 {/* <!-- //!Social links --> */}
@@ -97,8 +99,8 @@ const MyTeam = () => {
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={manish} alt="Manish's Photo" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://manishbhattarai.ml/" target="_blank">
-                                    <h5 class="mb-0">Manish Bhattarai</h5>
-                                    <span class="small text-uppercase text-muted">Designer</span>
+                                    <h5 class="mb-0">{t('jhapey')}</h5>
+                                    <span class="small text-uppercase text-muted">{t('designer')}</span>
                                 </a>
 
                                 {/* <!-- //!Social links --> */}
@@ -138,7 +140,7 @@ const MyTeam = () => {
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img src={ojhakochoro} alt="ojha'simage" width="200" height="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy" />
                                 <a href="https://www.ojhaayush.com.np/" target="_blank">
-                                    <h5 class="mb-0">Ayush Ojha</h5><span class="small text-uppercase text-muted">Designer</span>
+                                    <h5 class="mb-0">{t('ojha')}</h5><span class="small text-uppercase text-muted">{t('designer')}</span>
                                 </a>
 
                                 <ul class="social mb-0 list-inline mt-3">

@@ -44,17 +44,52 @@
     "web_desc":"Si necesita un sitio web personalizado para su negocio, no dude en hablar conmigo.",
     "discover_more":"Descubrir más",
 
-    "game_dev":"Game Dev",
-    "game_desc":"2D and 3D games created using Unity",
-    "ecommerce":"Ecommerce",
-    "ecom_desc":"If you need a customized ecommerce website for your business, feel free to discuss with me.",
+    "game_dev":"Desarrollo de juegos",
+    "game_desc":"Juegos 2D y 3D creados con Unity",
+    "ecommerce":"Comercio electrónico",
+    "ecom_desc":"Si necesita un sitio web de comercio electrónico personalizado para su negocio, no dude en hablar conmigo.",
     "seo":"SEO",
-    "seo_desc":"If you need to optimize your website search position for your business, feel free to discuss with me.",
+    "seo_desc":"Si necesita optimizar la posición de búsqueda de su sitio web para su negocio, no dude en hablar conmigo.",
     
+    "//projects":"comment",
+    "projects":"Proyectos",
+    "FPS_shooter":"Tirador FPS",
+    "Chrome_dino":"Dinosaurio cromado",
+    "G&D_DCR":"DCR de G&D",
+    "web_dev":"DESARROLLADOR WEB",
+
+    "skills":"Habilidades",
+
+    "//team":"comment",
+    "my_team":"Mi equipo",
     "frontend_developer": "Desarrollador frontend",
     "backend_developer": "Desarrollador backend",
-    "designer": "diseñador"
-    
+    "designer": "diseñador",
+    "game_dev_caps":"DESARROLLO DE JUEGOS",
+    "web_dev_caps":"DESARROLLADOR WEB",
+    "gorey":"Aayush Gautam",
+    "kale":"Bibhakta Lamsal",
+    "jhapey":"Manish Bhattarai",
+    "ojha":"Ayush Ojha",
+
+    "//contact":"comment",
+    "contact":"Contáctame",
+    "stay_connected":"MANTENTE CONECTADO",
+    "start_project":"INICIAR UN PROYECTO",
+    "start_desc":"Estoy disponible para proyectos freelance",
+    "about":"ACERCA DE",
+    "about_desc":"Lemon es un desarrollador web y de juegos profesional. No dude en ponerse en contacto conmigo.",
+    "call":"LLAMADA",
+    "EMAIL":"EMAIL",
+    "name_contact":"Nombre",
+    "email_add":"Dirección de correo electrónico",
+    "phone_number":"Número de teléfono",
+    "address_contact":"Dirección",
+    "tell_project":"Háblame del proyecto",
+    "submit":"Entregar",
+
+    "copyright":"Copyright © 2023 Todos los derechos reservados.",
+    "full_name":"Lemon Gautam"
     
     
 }
