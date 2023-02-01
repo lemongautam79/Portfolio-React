@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff187b18.css",
-    "main.js": "/static/js/main.35eb0cec.js",
+    "main.css": "/static/css/main.7e3ff4c0.css",
+    "main.js": "/static/js/main.7f78b268.js",
     "static/media/FPSGamepic.png": "/static/media/FPSGamepic.c930ddcac8e11c48fb12.png",
     "static/media/GDIcon.png": "/static/media/GDIcon.4772f35577774f5a4b44.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
@@ -20,11 +20,11 @@
     "static/media/Unarlogo.jpg": "/static/media/Unarlogo.b39ae9ecf311c76d14b0.jpg",
     "static/media/NavLogo.png": "/static/media/NavLogo.cfacc0c6af84d6e06674.png",
     "index.html": "/index.html",
-    "main.ff187b18.css.map": "/static/css/main.ff187b18.css.map",
-    "main.35eb0cec.js.map": "/static/js/main.35eb0cec.js.map"
+    "main.7e3ff4c0.css.map": "/static/css/main.7e3ff4c0.css.map",
+    "main.7f78b268.js.map": "/static/js/main.7f78b268.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff187b18.css",
-    "static/js/main.35eb0cec.js"
+    "static/css/main.7e3ff4c0.css",
+    "static/js/main.7f78b268.js"
   ]
 }
