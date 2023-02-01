@@ -279,6 +279,12 @@ strong {
   color: var(--white-color);
   padding: 8px 22px;
 }
+.navbar .custom-selectbtn {
+  background: transparent;
+  border-style:none;
+  color: var(--white-color);
+  padding: 8px 22px;
+}
 
 .navbar .custom-btn:hover {
   background: var(--white-color);
@@ -321,7 +327,7 @@ strong {
 }
 
 .selectwala{
-  border: none;
+  border-style: none;
 }
 
 /*---------------------------------------

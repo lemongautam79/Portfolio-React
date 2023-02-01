@@ -76,6 +76,23 @@ const Navbar = () => {
                         </a>
                     </div>
 
+                    <div class="d-flex align-items-center d-lg-none">
+                        {/* <div className="dropdown"> */}
+                            {/* <div class="dropbtn"> */}
+                                <select
+                                    className="custom-btn btn"
+                                    style={{"marginLeft":"10px","borderRadius": "none", "webkitAppearance": "none" }}
+                                    value={value}
+                                    onChange={handleChange}
+                                    name="">
+                                    <option value='En'>En</option>
+                                    <option value='Ne'>नेपा</option>
+                                    <option value='Es'>Es</option>
+                                </select>
+                            {/* </div> */}
+                        {/* </div> */}
+                    </div>
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5">
                             <li class="nav-item">
@@ -109,7 +126,7 @@ const Navbar = () => {
 
                         <div class="d-lg-flex align-items-center d-none ms-auto">
                             {/* <i class="navbar-icon bi-telephone-plus me-3"></i> */}
-                            <a class="custom-btn btn" href={LGresume} download="lemon's resume">
+                            <a class="custom-btn btn" style ={{}} href={LGresume} download="lemon's resume">
                                 {t('resume')}
                             </a>
 
@@ -118,8 +135,8 @@ const Navbar = () => {
                             <div className="dropdown">
                                 <div class="dropbtn">
                                     <select
-                                        className="custom-btn btn"
-                                        style={{ "borderRadius": "none", "webkitAppearance": "none" }}
+                                        className="custom-btn btn selectwala"
+                                        style={{"webkitAppearance": "none" }}
                                         value={value}
                                         onChange={handleChange}
                                         name="">
