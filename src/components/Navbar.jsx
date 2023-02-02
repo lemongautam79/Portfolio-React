@@ -36,6 +36,7 @@ const Navbar = () => {
     const { t } = useTranslation();
     const [value, setValue] = useState(localStorage.getItem('lang'))
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const storage = localStorage.getItem('lang');
 
 
     const handleChange = (event) => {
@@ -47,7 +48,7 @@ const Navbar = () => {
         // }
     }
     useEffect(() => {
-        // console.log(value)
+        console.log(value)
         i18n.changeLanguage(value);
         localStorage.setItem('lang', value);
     }, [value])
@@ -55,7 +56,8 @@ const Navbar = () => {
     useEffect(() => {
         let currentLang = localStorage.getItem('lang');
         i18n.changeLanguage(currentLang);
-    }, []);
+        // console.log(localStorage.getItem('lang').length)
+    }, [storage]);
 
     return (
         <>
@@ -78,18 +80,18 @@ const Navbar = () => {
 
                     <div class="d-flex align-items-center d-lg-none">
                         {/* <div className="dropdown"> */}
-                            {/* <div class="dropbtn"> */}
-                                <select
-                                    className="custom-btn btn"
-                                    style={{"marginLeft":"10px","borderRadius": "none", "webkitAppearance": "none" }}
-                                    value={value}
-                                    onChange={handleChange}
-                                    name="">
-                                    <option value='En'>En</option>
-                                    <option value='Ne'>नेपा</option>
-                                    <option value='Es'>Es</option>
-                                </select>
-                            {/* </div> */}
+                        {/* <div class="dropbtn"> */}
+                        <select
+                            className="custom-btn btn"
+                            style={{ "marginLeft": "10px", "borderRadius": "none", "webkitAppearance": "none" }}
+                            value={value}
+                            onChange={handleChange}
+                            name="">
+                            <option value='En'>En</option>
+                            <option value='Ne'>नेपा</option>
+                            <option value='Es'>Es</option>
+                        </select>
+                        {/* </div> */}
                         {/* </div> */}
                     </div>
 
@@ -126,7 +128,7 @@ const Navbar = () => {
 
                         <div class="d-lg-flex align-items-center d-none ms-auto">
                             {/* <i class="navbar-icon bi-telephone-plus me-3"></i> */}
-                            <a class="custom-btn btn" style ={{}} href={LGresume} download="lemon's resume">
+                            <a class="custom-btn btn" style={{}} href={LGresume} download="lemon's resume">
                                 {t('resume')}
                             </a>
 
@@ -136,7 +138,7 @@ const Navbar = () => {
                                 <div class="dropbtn">
                                     <select
                                         className="custom-btn btn selectwala"
-                                        style={{"webkitAppearance": "none" }}
+                                        style={{ "webkitAppearance": "none" }}
                                         value={value}
                                         onChange={handleChange}
                                         name="">
