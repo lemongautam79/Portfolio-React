@@ -48,7 +48,7 @@ const Navbar = () => {
         // }
     }
     useEffect(() => {
-        console.log(value)
+        // console.log(value)
         i18n.changeLanguage(value);
         localStorage.setItem('lang', value);
     }, [value])
