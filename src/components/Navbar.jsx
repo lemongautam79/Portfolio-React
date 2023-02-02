@@ -57,7 +57,7 @@ const Navbar = () => {
         let currentLang = localStorage.getItem('lang');
         i18n.changeLanguage(currentLang);
         // console.log(localStorage.getItem('lang').length)
-    });
+    },[]);
 
     return (
         <>
