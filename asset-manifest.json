@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6f6dd4ad.css",
-    "main.js": "/static/js/main.60375858.js",
-    "static/media/FPSGamepic.png": "/static/media/FPSGamepic.c930ddcac8e11c48fb12.png",
+    "main.js": "/static/js/main.cf0ea5d5.js",
     "static/media/GDIcon.png": "/static/media/GDIcon.4772f35577774f5a4b44.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
     "static/media/LGresume.pdf": "/static/media/LGresume.a0fca19d820b7c0d4162.pdf",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
-    "static/media/GDdashboard.png": "/static/media/GDdashboard.ce8c06c3dd8c57f1cc84.png",
     "static/media/lemoninsta.jpg": "/static/media/lemoninsta.620d62c59bda5c8847c8.jpg",
+    "static/media/GDdashboardWebp.webp": "/static/media/GDdashboardWebp.6c0dc39aae7181a9db6d.webp",
+    "static/media/FPSGamepicWebp.webp": "/static/media/FPSGamepicWebp.cc1f5a1bc3e81556df84.webp",
     "static/media/kalesnip.webp": "/static/media/kalesnip.ec7e6c04541b4da0c114.webp",
     "static/media/manish.jpg": "/static/media/manish.e33f97d17baa1d9fd777.jpg",
     "static/media/ojhakochoro.jpg": "/static/media/ojhakochoro.00d0fbe4541fa19f534d.jpg",
@@ -21,10 +21,10 @@
     "static/media/NavLogo.png": "/static/media/NavLogo.cfacc0c6af84d6e06674.png",
     "index.html": "/index.html",
     "main.6f6dd4ad.css.map": "/static/css/main.6f6dd4ad.css.map",
-    "main.60375858.js.map": "/static/js/main.60375858.js.map"
+    "main.cf0ea5d5.js.map": "/static/js/main.cf0ea5d5.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6dd4ad.css",
-    "static/js/main.60375858.js"
+    "static/js/main.cf0ea5d5.js"
   ]
 }
