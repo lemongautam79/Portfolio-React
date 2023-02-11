@@ -2,8 +2,8 @@ import React from 'react'
 import Skills from '../components/Skills'
 import whiteKey from '../images/whiteKey.jpg'
 import Chromedino from '../images/projects/Other files/Chromedino.png'
-import FPSGamepic from '../images/projects/Other files/FPSGamepic.png'
-import GDdashboard from '../images/projects/Other files/GDdashboard.png'
+import FPSGamepic from '../images/projects/Other files/FPSGamepicWebp.webp'
+import GDdashboard from '../images/projects/Other files/GDdashboardWebp.webp'
 import { useTranslation } from 'react-i18next'
 
 const Projects = () => {
