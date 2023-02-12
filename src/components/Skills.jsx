@@ -3,7 +3,7 @@ import reactlogo from '../images/projects/Other files/reactlogo.png'
 import { useTranslation } from 'react-i18next'
 
 const Skills = () => {
-    const {t} = useTranslation()
+    const { t } = useTranslation()
     return (
         <>
             <section class="clients" id=" section_5">
@@ -15,26 +15,38 @@ const Skills = () => {
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 ms-auto clients-item-height">
-                            <img src="https://img.icons8.com/color/240/null/javascript--v1.png" class="clients-image img-fluid" alt="jsimage" loading="lazy" />
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                                <img src="https://img.icons8.com/color/240/null/javascript--v1.png" class="clients-image img-fluid" alt="jsimage" loading="lazy" />
+                            </a>
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 clients-item-height">
-                            <img src={reactlogo} class="clients-image img-fluid" alt="reactimage" loading="lazy" />
+                            <a href="https://reactjs.org/" target="_blank">
+                                <img src={reactlogo} class="clients-image img-fluid" alt="reactimage" loading="lazy" />
+                            </a>
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 clients-item-height">
-                            <img src="https://img.icons8.com/color/144/null/redux.png" class="clients-image img-fluid" alt="reduximage" loading="lazy" />
+                            <a href="https://redux-toolkit.js.org/" target="_blank">
+                                <img src="https://img.icons8.com/color/144/null/redux.png" class="clients-image img-fluid" alt="reduximage" loading="lazy" />
+                            </a>
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 clients-item-height">
-                            <img src="https://img.icons8.com/color/144/null/git.png" class="clients-image img-fluid" alt="gitlogo" loading="lazy" />
+                            <a href="https://git-scm.com/" target="_blank">
+                                <img src="https://img.icons8.com/color/144/null/git.png" class="clients-image img-fluid" alt="gitlogo" loading="lazy" />
+                            </a>
                         </div>
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 clients-item-height">
-                            <img src="https://img.icons8.com/ios-filled/150/null/unity.png" class="clients-image img-fluid" alt="unityimage" loading="lazy" />
+                            <a href="https://unity.com/" target="_blank">
+                                <img src="https://img.icons8.com/ios-filled/150/null/unity.png" class="clients-image img-fluid" alt="unityimage" loading="lazy" />
+                            </a>
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 me-auto clients-item-height">
-                            <img src="https://img.icons8.com/color/150/null/blender-3d.png" class="clients-image img-fluid" alt="blenderimage" loading="lazy" />
+                            <a href="https://www.blender.org/" target="_blank">
+                                <img src="https://img.icons8.com/color/150/null/blender-3d.png" class="clients-image img-fluid" alt="blenderimage" loading="lazy" />
+                            </a>
                         </div>
 
                     </div>
