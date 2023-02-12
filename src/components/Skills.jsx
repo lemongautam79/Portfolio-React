@@ -52,11 +52,17 @@ const Skills = () => {
                     </div>
 
                     {/* <!--! Flexwala firebase ko --> */}
-                    {/* <!-- <div class="flexwala">
-                            <div class="col-lg-2 col-4 clients-item-height">
-                                <img src="https://img.icons8.com/color/144/null/firebase.png" class="clients-image img-fluid" alt="firebase" loading="lazy">
-                            </div>
-                        </div>        --> */}
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="flexwala">
+                        <div class="col-lg-2 col-4 clients-item-height">
+                            <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+                                <img src="https://img.icons8.com/color/144/null/c-programming.png" class="clients-image img-fluid" alt="c" loading="lazy" />
+                            </a>
+                        </div>
+
+                        {/* <div class="col-lg-2 col-4 clients-item-height">
+                            <img src="https://img.icons8.com/color/144/null/firebase.png" class="clients-image img-fluid" alt="firebase" loading="lazy"/>
+                        </div> */}
+                    </div>
 
                 </div>
             </section>
