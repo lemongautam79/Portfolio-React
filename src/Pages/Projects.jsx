@@ -7,7 +7,11 @@ import GDdashboard from '../images/projects/Other files/GDdashboardWebp.webp'
 import { useTranslation } from 'react-i18next'
 
 const Projects = () => {
-    const {t} = useTranslation()
+    const { t } = useTranslation()
+
+    const onAlert = () => {
+        alert("Are you sure you want to download the game?")
+    }
     return (
         <>
             <section class="projects section-padding" id="section_4">
@@ -32,9 +36,18 @@ const Projects = () => {
                                     <h3 class="projects-title">{t('FPS_shooter')}</h3>
                                 </div>
 
-                                <a href={FPSGamepic} class="popup-image">
+                                {/* <a href={FPSGamepic} class="popup-image">
+                                    <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
+                                </a> */}
+
+                                <a href={"https://drive.google.com/uc?export=download&id=1pktEHiEAPxun279OzTne7Agmfe2_PtSj"} class="popup-image" target="_blank">
                                     <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
                                 </a>
+
+                                {/* <a class="popup-image">
+                                    <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" onClick={onAlert} />
+                                </a> */}
+
                             </div>
                         </div>
 
@@ -46,7 +59,7 @@ const Projects = () => {
                                     <h3 class="projects-title">{t('Chrome_dino')}</h3>
                                 </div>
 
-                                <a href={Chromedino}>
+                                <a href={"https://drive.google.com/uc?export=download&id=1pO0i81s1dHdFH84V5xoCPeaolRoXrCj6"} class="popup-image" target="_blank">
                                     <img src={Chromedino} class="projects-image img-fluid" alt="chromedinosaurimage" loading="lazy" />
                                 </a>
                             </div>
@@ -60,12 +73,12 @@ const Projects = () => {
                                     <h3 class="projects-title">G&D DCR</h3>
                                 </div>
 
-                                <a href={GDdashboard} class="popup-image">
+                                <a class="popup-image">
                                     <img src={GDdashboard} class="projects-image img-fluid" alt="GDdashboardimage" loading="lazy" />
                                 </a>
                             </div>
                         </div>
-                            
+
 
                     </div>
                 </div>
