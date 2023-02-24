@@ -9,9 +9,6 @@ import { useTranslation } from 'react-i18next'
 const Projects = () => {
     const { t } = useTranslation()
 
-    const onAlert = () => {
-        alert("Are you sure you want to download the game?")
-    }
     return (
         <>
             <section class="projects section-padding" id="section_4">
@@ -43,10 +40,6 @@ const Projects = () => {
                                 <a href={"https://drive.google.com/uc?export=download&id=1pktEHiEAPxun279OzTne7Agmfe2_PtSj"} class="popup-image" target="_blank">
                                     <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
                                 </a>
-
-                                {/* <a class="popup-image">
-                                    <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" onClick={onAlert} />
-                                </a> */}
 
                             </div>
                         </div>

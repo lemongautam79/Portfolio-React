@@ -28,6 +28,12 @@ const HeroSection = () => {
                                     <img src={lemoninsta} class="avatar-image avatar-image-large img-fluid" alt="avatar" loading="lazy" />
 
                                     <h1 class="hero-title ms-3 mb-0">{t('welcome')}</h1>
+
+                                    {/*//! Using env variables  */}
+                                    <h1 class="hero-title ms-3 mb-0">
+                                    {process.env.REACT_APP_PORTFOLIO_KEY}
+                                    </h1>
+
                                 </div>
 
                                 <h2 class="mb-4">{t('frontend_gamedev')} </h2>
