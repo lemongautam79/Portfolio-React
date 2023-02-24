@@ -31,7 +31,7 @@ const HeroSection = () => {
 
                                     {/*//! Using env variables  */}
                                     <h1 class="hero-title ms-3 mb-0">
-                                    {process.env.REACT_APP_PORTFOLIO_KEY}
+                                    {/* {process.env.REACT_APP_PORTFOLIO_KEY} */}
                                     </h1>
 
                                 </div>
