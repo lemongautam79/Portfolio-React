@@ -30,9 +30,9 @@ const HeroSection = () => {
                                     <h1 class="hero-title ms-3 mb-0">{t('welcome')}</h1>
 
                                     {/*//! Using env variables  */}
-                                    <h1 class="hero-title ms-3 mb-0">
+                                    {/* <h1 class="hero-title ms-3 mb-0">
                                     {process.env.REACT_APP_PORTFOLIO_KEY}
-                                    </h1>
+                                    </h1> */}
 
                                 </div>
 
