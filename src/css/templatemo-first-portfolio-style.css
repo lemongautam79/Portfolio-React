@@ -17,11 +17,17 @@ https://templatemo.com/tm-578-first-portfolio
   /* //! I like  */
   --primary-color: #535da1;
   --secondary-color: #ff5003;
+  --section-bg-color: #f9f9f9;
+
+  /*//! Chat GPT suggestions  */
+  /* --primary-color: #535da1;
+  --secondary-color: #0074ea;
+  --section-bg-color: #001e3c; */
 
   /* //! Default */
-  /* --primary-color:                #535da1; */
-  /* --secondary-color:              #14B789; */
-  --section-bg-color: #f9f9f9;
+  /* --primary-color:                #535da1;
+  --secondary-color:              #14B789; */
+  /* --section-bg-color: #f9f9f9; */
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #e9eaeb;
