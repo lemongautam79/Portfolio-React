@@ -3,6 +3,7 @@ import lemoninsta from '../images/projects/Other files/lemoninsta.jpg'
 import Lottie from 'react-lottie';
 import laptop from '../images/projects/Other files/laptop.json'
 import { useTranslation } from 'react-i18next';
+import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
     const { t } = useTranslation();
@@ -15,6 +16,7 @@ const HeroSection = () => {
             preserveAspectRatio: 'xMidYMid slice'
         }
     };
+
 
     return (
         <>
@@ -35,8 +37,23 @@ const HeroSection = () => {
                                     </h1> */}
 
                                 </div>
+                                <div>
+                                    <h2 class="mb-4">
+                                        {t('lemon_intro')}
+                                    </h2>
+                                </div>
 
-                                <h2 class="mb-4">{t('frontend_gamedev')} </h2>
+                                <div>
+                                    <h2 class="mb-4">
+                                        <Typewriter
+                                            options={{
+                                                strings: [t('frontend'), t('gamedev')],
+                                                autoStart: true,
+                                                loop: true,
+                                            }}
+                                        />
+                                    </h2>
+                                </div>
                                 <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">{t('lets_begin')}</a></p>
                             </div>
                         </div>

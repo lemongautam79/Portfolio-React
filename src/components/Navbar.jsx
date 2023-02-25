@@ -32,6 +32,7 @@ i18n
             escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
         },
     });
+
 const Navbar = () => {
     const { t } = useTranslation();
     const [value, setValue] = useState(localStorage.getItem('lang'))
@@ -57,7 +58,7 @@ const Navbar = () => {
         let currentLang = localStorage.getItem('lang');
         i18n.changeLanguage(currentLang);
         // console.log(localStorage.getItem('lang').length)
-    },[]);
+    }, []);
 
     return (
         <>

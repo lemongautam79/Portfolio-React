@@ -11,7 +11,9 @@
 
     "//hero_section":"comment",
     "welcome": "Hello! People",
-    "frontend_gamedev":"Frontend & Game Dev",
+    "lemon_intro":"I am Lemon Gautam",
+    "frontend":"Frontend Developer",
+    "gamedev":"Game Developer",
     "lets_begin": "Let's begin",
 
     "//story":"comment",

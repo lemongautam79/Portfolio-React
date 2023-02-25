@@ -11,7 +11,9 @@
 
     "//hero_section":"comment",
     "welcome": "नमस्ते!",
-    "frontend_gamedev":"फ्रन्टएन्ड र गेम देव",
+    "lemon_intro":"म लेमन गौतम हुँ",
+    "frontend":"फ्रन्टएन्ड विकासकर्ता",
+    "gamedev":"खेल विकासकर्ता",
     "lets_begin": "सुरु गरौं",
 
     "//story":"comment",
