@@ -44,7 +44,7 @@ const Projects = () => {
                                 </a> */}
 
                                 <a href={"https://drive.google.com/uc?export=download&id=1pktEHiEAPxun279OzTne7Agmfe2_PtSj"} class="popup-image" target="_blank">
-                                    <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
+                                    <img title="Download" src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
                                 </a>
 
                             </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                                 </div>
 
                                 <a href={"https://drive.google.com/uc?export=download&id=1pO0i81s1dHdFH84V5xoCPeaolRoXrCj6"} class="popup-image" target="_blank">
-                                    <img src={Chromedino} class="projects-image img-fluid" alt="chromedinosaurimage" loading="lazy" />
+                                    <img title="Download" src={Chromedino} class="projects-image img-fluid" alt="chromedinosaurimage" loading="lazy" />
                                 </a>
                             </div>
                         </div>
