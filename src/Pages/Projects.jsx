@@ -29,7 +29,7 @@ const Projects = () => {
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-4 col-md-6 col-12">
                             <div class="projects-thumb">
                                 <div class="projects-info">
-                                    <small class="projects-tag">{t('game_dev ')}
+                                    <small class="projects-tag">{t('game_dev')}
                                     </small>
                                     <h3 class="projects-title">
                                         {t('FPS_shooter')}&nbsp;
