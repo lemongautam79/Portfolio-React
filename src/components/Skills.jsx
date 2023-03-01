@@ -59,9 +59,11 @@ const Skills = () => {
                             </a>
                         </div>
 
-                        {/* <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="https://img.icons8.com/color/144/null/firebase.png" class="clients-image img-fluid" alt="firebase" loading="lazy"/>
-                        </div> */}
+                        <div class="col-lg-2 col-4 clients-item-height">
+                            <a href="https://firebase.google.com/" target="_blank">
+                                <img src="https://img.icons8.com/color/144/null/firebase.png" class="clients-image img-fluid" alt="firebase" loading="lazy" />
+                            </a>
+                        </div>
                     </div>
 
                 </div>
