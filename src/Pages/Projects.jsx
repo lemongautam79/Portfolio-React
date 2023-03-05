@@ -43,7 +43,8 @@ const Projects = () => {
                                     <img src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
                                 </a> */}
 
-                                <a href={"https://drive.google.com/uc?export=download&id=1pktEHiEAPxun279OzTne7Agmfe2_PtSj"} class="popup-image" target="_blank">
+                                {/* <a href={"https://drive.google.com/uc?export=download&id=1pktEHiEAPxun279OzTne7Agmfe2_PtSj"} class="popup-image" target="_blank"> */}
+                                <a href={"https://www.mediafire.com/file/qqb8p9zfeipi14f/mysetup.exe/file"} class="popup-image" target="_blank">
                                     <img title="Download" src={FPSGamepic} class="projects-image img-fluid" alt="fpsgameimage" loading="lazy" />
                                 </a>
 
@@ -59,7 +60,8 @@ const Projects = () => {
                                     </h3>
                                 </div>
 
-                                <a href={"https://drive.google.com/uc?export=download&id=1pO0i81s1dHdFH84V5xoCPeaolRoXrCj6"} class="popup-image" target="_blank">
+                                {/* <a href={"https://drive.google.com/uc?export=download&id=1pO0i81s1dHdFH84V5xoCPeaolRoXrCj6"} class="popup-image" target="_blank"> */}
+                                <a href={"https://www.mediafire.com/file/zzducowwdrh1anf/CHROMEDINOSAURWALA.exe/file"} class="popup-image" target="_blank">
                                     <img title="Download" src={Chromedino} class="projects-image img-fluid" alt="chromedinosaurimage" loading="lazy" />
                                 </a>
                             </div>
