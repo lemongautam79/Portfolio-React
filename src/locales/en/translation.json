@@ -94,7 +94,8 @@
     "tell_project":"Tell me about the project",
     "submit":"Submit",
 
-    "copyright":"Copyright © 2023 All rights reserved.",
+    "copyright":"Copyright © ",
+    "remaining_text":" All rights reserved.",
     "full_name":"Lemon Gautam"
     
 
