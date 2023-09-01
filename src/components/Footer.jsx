@@ -14,7 +14,7 @@ const Footer = () => {
                         <div class="col-lg-12 col-12">
                             <div class="copyright-text-wrap">
                                 <p class="mb-0">
-                                    <span class="copyright-text">{t('copyright')+year+t('remaining_text')}</span>
+                                    <span class="copyright-text">{t('copyright') + year + t('remaining_text')}</span>
                                     <a rel="sponsored" href="/" target="_blank">{t('full_name')}</a>
                                 </p>
                             </div>
