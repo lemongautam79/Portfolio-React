@@ -1,44 +1,45 @@
 import React, { useState } from 'react'
 import whiteKey from '../images/whiteKey.jpg'
-import { useCreateUsersMutation, useGetAllUsersQuery } from '../api/RTK Query/PortfolioApiSlice'
+import { useCreateContactsMutation } from '../api/ContactsSlice'
 import { useTranslation } from 'react-i18next'
 
 const ContactUs = () => {
     const { t } = useTranslation()
 
-    // ! GET all users
+    // ! GET all createContacts
     // const { data } = useGetAllUsersQuery();
     // console.log(data)
 
-    // ! Creating users
-    const [users] = useCreateUsersMutation();
-    const [registerUsers, setRegisterUsers] = useState("")
+    // ! Creating createContacts
+    const [createContacts] = useCreateContactsMutation();
+    const [ContactData, setContactData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        address: '',
+        message: '',
+    });
 
-    const onRegisterUsers = (e) => {
-        setRegisterUsers(registerUsers => {
-            return {
-                ...registerUsers,
-                [e.target.name]: e.target.value,
-            }
+    const handleInputChange = (event) => {
+        const { name, value } = event.target;
+        setContactData({
+            ...ContactData,
+            [name]: value,
+        });
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(ContactData);
+        createContacts(ContactData);
+        setContactData({
+            name: '',
+            email: '',
+            subject: '',
+            address: '',
+            message: '',
         })
-        // console.log(registerUsers)
-    }
-
-    const PortfolioUsers = (e) => {
-        e.preventDefault()
-        users(registerUsers)
-        setRegisterUsers({
-            "name": "",
-            "email": "",
-            "messages": "",
-            "websites": "",
-            "gamedev": "",
-            "seo": "",
-            "ecommerce": ""
-
-        })
-        alert("Info submitted")
-    }
+    };
     return (
         <>
 
@@ -117,7 +118,7 @@ const ContactUs = () => {
                                     </a>
                                 </p>
 
-                                <strong class="site-footer-title d-block mt-4 mb-3">{t('call')}</strong>
+                                {/* <strong class="site-footer-title d-block mt-4 mb-3">{t('call')}</strong>
 
                                 <p class="mb-0">
                                     <a href="tel: +9779861000213">
@@ -128,24 +129,24 @@ const ContactUs = () => {
                                     <a href="tel: +9779818310190">
                                         {t('actual_phone_ncell')}
                                     </a>
-                                </p>
+                                </p> */}
                             </div>
                         </div>
 
-                        {/* https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2                   Get form*/}
-                        {/* https://formspree.io/f/xrgdnjjy                                           formspree */}
 
                         {/* <!-- //! Contact Us form --> */}
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
 
-                            <form class="custom-form contact-form" role="form" action="https://getform.io/f/47b01bd9-a75d-49e8-98e2-50d8584a5cf2" method="POST" name="form">
+                            <form class="custom-form contact-form" role="form" name="form">
                                 <div class="row">
 
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-floating">
                                             <input
                                                 type="text"
-                                                name="Name"
+                                                name="name"
+                                                value={ContactData.name}
+                                                onChange={handleInputChange}
                                                 id="name"
                                                 class="form-control"
                                                 placeholder="Name"
@@ -163,7 +164,9 @@ const ContactUs = () => {
                                         <div class="form-floating">
                                             <input
                                                 type="email"
-                                                name="Email"
+                                                name="email"
+                                                value={ContactData.email}
+                                                onChange={handleInputChange}
                                                 id="email"
                                                 pattern="[^ @]*@[^ @]*"
                                                 class="form-control"
@@ -182,24 +185,9 @@ const ContactUs = () => {
                                         <div class="form-floating">
                                             <input
                                                 type="text"
-                                                name="Phone-number"
-                                                id="name"
-                                                class="form-control"
-                                                placeholder="Phone Number"
-                                                autoComplete='off'
-                                            // value={registerUsers.name}
-                                            // onChange={onRegisterUsers}
-                                            />
-
-                                            <label for="floatingInput">{t('phone')}</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-floating">
-                                            <input
-                                                type="text"
-                                                name="Address"
+                                                name="address"
+                                                value={ContactData.address}
+                                                onChange={handleInputChange}
                                                 id="name"
                                                 class="form-control"
                                                 placeholder="Address"
@@ -209,6 +197,25 @@ const ContactUs = () => {
                                             />
 
                                             <label for="floatingInput">{t('address')}</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                name="subject"
+                                                value={ContactData.subject}
+                                                onChange={handleInputChange}
+                                                id="name"
+                                                class="form-control"
+                                                placeholder="Address"
+                                                autoComplete='off'
+                                            // value={registerUsers.name}
+                                            // onChange={onRegisterUsers}
+                                            />
+
+                                            <label for="floatingInput">{t('subject')}</label>
                                         </div>
                                     </div>
 
@@ -292,7 +299,9 @@ const ContactUs = () => {
                                         <div class="form-floating">
                                             <textarea
                                                 type="text"
-                                                name="Message"
+                                                name="message"
+                                                value={ContactData.message}
+                                                onChange={handleInputChange}
                                                 id="name"
                                                 class="form-control"
                                                 placeholder="Tell me about the project"
@@ -313,7 +322,7 @@ const ContactUs = () => {
                                             class="form-control"
                                             id="sub"
 
-                                        // onClick={PortfolioUsers}
+                                            onClick={(e) => { handleSubmit(e) }}
                                         >
                                             {t('submit')}
                                         </button>

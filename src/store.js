@@ -1,17 +1,14 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import { setupListeners } from "@reduxjs/toolkit/dist/query";
-import { PortfolioApiSlice } from "./api/RTK Query/PortfolioApiSlice";
+import { configureStore, combineReducers } from "@reduxjs/toolkit";
+import { apiSlice } from "./api/apiSlice";
+
+const rootReducer = combineReducers({
+    [apiSlice.reducerPath]: apiSlice.reducer,
+    // Add more reducers as needed
+});
 
 export const store = configureStore({
-    reducer:{
-        [PortfolioApiSlice.reducerPath]:PortfolioApiSlice.reducer
-    },
-    middleware:(getDefaultMiddleware) => 
-    getDefaultMiddleware().concat(
-        PortfolioApiSlice.middleware
-    ),
-    devTools:true
+    reducer: rootReducer,
+    middleware: getDefaultMiddleware =>
+        getDefaultMiddleware().concat(apiSlice.middleware),
+    devTools: true
 })
-
-//! Refetch garnu paryo bhanne ko lagi
-setupListeners(store.dispatch)

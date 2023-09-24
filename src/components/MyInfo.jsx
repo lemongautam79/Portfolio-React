@@ -38,13 +38,13 @@ const MyInfo = () => {
                                         <span><a>{t('actual_address')}</a></span>
                                     </p>
 
-                                    <p>
+                                    {/* <p>
                                         <span class="profile-small-title">{t('phone')}</span>
                                         <span>
                                             <a href="tel: +9779861000213">{t('actual_phone_ntc')},</a></span>
                                         <span>
                                             <a href="tel: +9779818310190"> {t('actual_phone_ncell')}</a></span>
-                                    </p>
+                                    </p> */}
 
                                 </div>
                             </div>
