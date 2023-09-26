@@ -114,6 +114,18 @@ export const ContactsSlice = apiSlice.injectEndpoints({
             invalidatesTags: ['Contacts']
         }),
 
+        // //! send mail 
+        sendMail: builder.mutation({
+            query: (newContacts) => {
+                return {
+                    url: `sendmail/`,
+                    method: 'POST',
+                    body: newContacts,
+                }
+            },
+            invalidatesTags: ['Contacts']
+        }),
+
         // //! POST contact category
         // createContactsCategory: builder.mutation({
         //     query: (newContacts) => {
@@ -200,6 +212,7 @@ export const ContactsSlice = apiSlice.injectEndpoints({
 export const {
     useGetAllContactsQuery,
     useCreateContactsMutation,
+    useSendMailMutation,
 } = ContactsSlice
 
 //! returns the query result object

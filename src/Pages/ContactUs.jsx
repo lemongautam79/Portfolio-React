@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import whiteKey from '../images/whiteKey.jpg'
-import { useCreateContactsMutation } from '../api/ContactsSlice'
+import { useCreateContactsMutation,useSendMailMutation } from '../api/ContactsSlice'
 import { useTranslation } from 'react-i18next'
 
 const ContactUs = () => {
@@ -9,6 +9,9 @@ const ContactUs = () => {
     // ! GET all createContacts
     // const { data } = useGetAllUsersQuery();
     // console.log(data)
+
+    //! Send mail
+    const [sendMail] = useSendMailMutation(); 
 
     // ! Creating createContacts
     const [createContacts] = useCreateContactsMutation();
@@ -32,6 +35,7 @@ const ContactUs = () => {
         event.preventDefault();
         console.log(ContactData);
         createContacts(ContactData);
+        sendMail({email:ContactData.email})
         setContactData({
             name: '',
             email: '',
