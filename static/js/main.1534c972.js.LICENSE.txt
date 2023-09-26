@@ -132,3 +132,5 @@
  */
 
 //! GET all the contacts
+
+//! Send mail
