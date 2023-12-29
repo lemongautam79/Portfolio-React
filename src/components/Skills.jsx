@@ -15,8 +15,8 @@ const Skills = () => {
                         </div>
 
                         <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="700" class="col-lg-2 col-4 ms-auto clients-item-height">
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                                <img src="https://img.icons8.com/color/240/null/javascript--v1.png" class="clients-image img-fluid" alt="jsimage" loading="lazy" />
+                            <a href="https://www.typescriptlang.org/" target="_blank">
+                                <img src="https://img.icons8.com/color/240/null/typescript.png" class="clients-image img-fluid" alt="jsimage" loading="lazy" />
                             </a>
                         </div>
 
