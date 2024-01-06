@@ -117,8 +117,8 @@ const ContactUs = () => {
                                 <strong class="site-footer-title d-block mt-4 mb-3">{t('Email')}</strong>
 
                                 <p>
-                                    <a href="mailto:azulgautam79@gmail.com">
-                                        azulgautam79@gmail.com
+                                    <a href="mailto:portfoliolemon79@gmail.com">
+                                        portfoliolemon79@gmail.com
                                     </a>
                                 </p>
 

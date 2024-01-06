@@ -1,5 +1,6 @@
 import React from 'react'
 import GDIcon from '../images/projects/Other files/GDIcon.png'
+import KankaliTailorsIcon from '../images/projects/Other files/KankaliTailors.png'
 import Unarlogo from '../images/projects/Other files/Unarlogo.jpg'
 import { useTranslation } from 'react-i18next'
 
@@ -16,11 +17,11 @@ const CompaniesLogo = () => {
                             <h3 class="text-center mb-5">{t('companies_work')}</h3>
                         </div>
 
-                        {/* <div class="col-lg-2 col-4 ms-auto clients-item-height">
-                            <a href="https://developergd.com/" target="_blank">
-                                <img src={GDIcon} class="clients-image img-fluid" alt="GDIcon" loading="lazy" />
+                        <div class="col-lg-2 col-4 ms-auto clients-item-height">
+                            <a href="https://www.newkankalitailors.com.np/" target="_blank">
+                                <img src={KankaliTailorsIcon} class="clients-image img-fluid" alt="New Kankali Tailors Logo" loading="lazy" />
                             </a>
-                        </div> */}
+                        </div>
 
                         {/* //! Horizontally centered logo */}
                         <div class="col-lg-2 col-4 mx-auto clients-item-height ">

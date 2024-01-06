@@ -30,7 +30,7 @@ const MyInfo = () => {
 
                                     <p>
                                         <span class="profile-small-title">{t('Email')}</span>
-                                        <span><a href="mailto:azulgautam@gmail.com.design">azulgautam79@gmail.com</a></span>
+                                        <span><a href="mailto:portfoliolemon79@gmail.com.design">portfoliolemon79@gmail.com</a></span>
                                     </p>
 
                                     <p>
